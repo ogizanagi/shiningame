@@ -1,0 +1,15 @@
+{
+  "entrypoints": {
+    "app": {
+      "js": [
+        "/shiningame/build/runtime.51841c4b.js",
+        "/shiningame/build/62.7dc7f6ee.js",
+        "/shiningame/build/app.ae011655.js"
+      ],
+      "css": [
+        "/shiningame/build/62.97977e51.css",
+        "/shiningame/build/app.805286cb.css"
+      ]
+    }
+  }
+}
