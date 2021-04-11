@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="{% block meta_locale app.request.locale %}" class="no-js {{ (pageClasses ?? [])|join(' ') }}">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block meta_title site.title %}</title>
+
+        <!-- Favicon -->
+{#        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">#}
+{#        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">#}
+{#        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}">#}
+{#        <link rel="manifest" href="{{ asset('site.webmanifest') }}">#}
+{#        <link rel="mask-icon" href="{{ asset('safari-pinned-tab.svg') }}" color="#ff4344">#}
+{#        <link rel="shortcut icon" href="{{ asset('favicon.ico') }}">#}
+{#        <meta name="msapplication-TileColor" content="#ff4344">#}
+{#        <meta name="msapplication-config" content="{{ asset('browserconfig.xml') }}">#}
+{#        <meta name="theme-color" content="#ffffff">#}
+
+        {% block meta %}
+            <meta name="description" content="{% block meta_description site.description %}" />
+            <link rel="canonical" href="{{ app.request.uri }}" />
+
+            <!-- Open Graph / Facebook -->
+            <meta property="og:title" content="{% block og_title block('meta_title') %}" />
+            <meta property="og:locale" content="{% block og_locale block('meta_locale') %}" />
+            <meta property="og:description" content="{% block og_description block('meta_description') %}" />
+            <meta property="og:url" content="{{ app.request.uri }}" />
+            <meta property="og:site_name" content="{{ site.title }}" />
+            {% set og_image %}{% block og_image %}{% endblock %}{% endset %}
+            {% if og_image|default(false) %}
+                <meta property="og:image" content="{{ og_image }}">
+            {% endif %}
+
+            <!-- Twitter -->
+            <meta property="twitter:card" content="{% block twitter_card_type 'summary' %}">
+            <meta property="twitter:title" content="{% block twitter_title block('meta_title') %}">
+            <meta property="twitter:description" content="{% block twitter_description block('meta_description') %}">
+            <meta property="twitter:site" content="@{{ site.social.twitter }}">
+            <meta property="twitter:creator" content="@{{ site.social.twitter }}">
+            {% set twitter_image %}{% block twitter_image %}{% endblock %}{% endset %}
+            {% if twitter_image|default(false) %}
+                <meta property="twitter:image" content="{{ twitter_image }}">
+            {% endif %}
+        {% endblock %}
+
+        <script>
+            {# Detect as soon as possible if JS is available #}
+            document.querySelector('html').classList.remove('no-js');
+        </script>
+
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+    </head>
+    <body>
+        {% block layout %}{% endblock %}
+
+        <footer>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="{{ external_url('github', { accountId: site.social.github }) }}" target="_blank">
+                            <i class="icon icon-github"></i> Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ external_url('twitter_account', { accountId: site.social.twitter }) }}" target="_blank">
+                            <i class="icon icon-twitter"></i> Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ path('about') }}">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </body>
+</html>

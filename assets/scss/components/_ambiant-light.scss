@@ -1,0 +1,25 @@
+html:not(.ambiant) {
+  .ambiant-bg {
+    @apply hidden;
+    background-image: none !important;
+  }
+}
+
+html.ambiant {
+  .ambiant-bg {
+    @apply
+    absolute
+    z-0
+    h-full
+    w-full
+    bg-no-repeat
+    bg-cover
+    opacity-40
+    transform-gpu
+    filter blur-2xl
+    animate-pulse
+    block
+    overflow-hidden
+    ;
+  }
+}

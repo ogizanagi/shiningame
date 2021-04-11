@@ -1,0 +1,95 @@
+.page_games {
+  @apply
+    w-screen
+    overflow-x-hidden
+  ;
+
+  scroll-snap-type: y proximity;
+
+  body {
+    scroll-snap-type: y proximity;
+  }
+
+  nav {
+    scroll-snap-align: start;
+  }
+
+  nav header {
+    h1 {
+      @apply
+        text-white text-center
+        text-shadow-md
+        text-5xl lg:text-8xl
+        p-5
+      ;
+
+      font-family: eclairage;
+    }
+  }
+
+  .icon-fullscreen-toggle {
+    @apply
+      fixed
+      z-50
+      top-3
+      right-3
+      text-white text-base
+      px-3 py-2
+      backdrop-filter backdrop-blur-sm
+      bg-gray-400 bg-opacity-30
+      opacity-70 hover:opacity-90
+      transition-all
+      rounded-md
+    ;
+  }
+
+  &.fullscreen .icon-fullscreen-toggle {
+    @apply opacity-30 hover:opacity-90;
+  }
+
+  article.game {
+    @apply
+      relative
+      h-screen
+      w-screen
+      bg-no-repeat
+      bg-center
+      bg-fixed
+      bg-cover
+    ;
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+
+    header {
+      @apply
+        flex
+        justify-center
+        items-center
+        h-full
+      ;
+
+      h2 {
+        @apply
+          text-white
+          text-4xl lg:text-7xl
+          text-center
+          backdrop-filter backdrop-blur
+          p-8
+          m-10
+          bg-white bg-opacity-25
+          rounded-3xl
+          transform hover:scale-125
+          transform-gpu
+          transition-all duration-500
+        ;
+
+        font-family: boldfinger;
+      }
+    }
+  }
+
+  footer {
+    scroll-snap-align: start;
+  }
+}

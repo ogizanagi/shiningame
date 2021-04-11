@@ -1,0 +1,23 @@
+$fonts: (
+  boldfinger: '../../fonts/boldfinger',
+  elegant: '../../fonts/elegant',
+  rougant: '../../fonts/rougant',
+  eclairage: '../../fonts/eclairage',
+  comfortaa: '../../fonts/comfortaa-regular',
+  comfortaa light: '../../fonts/comfortaa-light',
+  comfortaa bold: '../../fonts/comfortaa-bold',
+);
+
+@each $font-name, $font-path in $fonts {
+  @font-face {
+    font-family: '#{$font-name}';
+    src: url('#{$font-path}.woff2') format('woff2'),
+         url('#{$font-path}.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+
+html {
+  @apply subpixel-antialiased;
+}

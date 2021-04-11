@@ -1,0 +1,161 @@
+{% import "macros.html.twig" as macros %}
+{% extends 'base.html.twig' %}
+
+{% set pageClasses = 'page_game' %}
+
+{% block meta_title '%s | %s'|format(game.metaTitle ?? game.title, parent()) %}
+{% block meta_description (game.metaDescription ?? '"%s" is game developed by %s released on %s'|format(game.title, game.developer.name, game.parutionDate|date('F Y'))) ~ ' | Look at these screens extracted from the game' %}
+{% block twitter_card_type 'summary_large_image' %}
+{% block twitter_image absolute_url(asset((game.twitterImage ?? game.cover)|glide_image_preset('twitter_card_image'))) %}
+{% block og_image asset((game.ogImage ?? game.cover)|glide_image_preset('opengraph_image')) %}
+
+{% block layout %}
+    <main>
+        <header>
+            <div class="game-banner" style="{{ macros.backgroundImageSrcset(game.banner, 'game_show_banner') }};"></div>
+
+            <nav class="main">
+                <a href="{{ path('games') }}" class="item">
+                    <i class="icon icon-arrow-left2"></i> Back to games
+                </a>
+            </nav>
+
+            <h1 class="game-title">{{ game.title }}</h1>
+
+            <nav class="secondary">
+                {% apply spaceless %}
+                    {% if game.tweetId %}
+                        <a href="{{ external_url('twitter_like', { tweet_id: game.tweetId }) }}" class="item" target="_blank">
+                            <i class="icon icon-heart"></i>
+                        </a>
+                    {% endif %}
+                {% endapply %}
+                <span class="item game-device" title="Played on {{ game.device }}">{{ game.device }}</span>
+                {% apply spaceless %}
+                    <button type="button" class="item btn-ambiant-light-toggle animate-pulse" {{ stimulus_controller('ambiant-light') }} title="Ambiant lights mode">
+                        <i class="icon icon-ambiant-light-toggle"></i>
+                    </button>
+                    <button type="button" class="item btn-fullscreen-toggle" {{ stimulus_controller('fullscreen') }} title="Fullscreen">
+                        <i class="icon icon-fullscreen-toggle"></i>
+                    </button>
+                {% endapply %}
+            </nav>
+
+            <a class="game-dev"
+                {% if game.developer.website %}
+                    href="{{ game.developer.website }}"
+                    target="_blank"
+                {% endif %}
+            >
+                {% if game.officialCover %}
+                    <img {{ macros.imageSrcsetWithBlurHash(game.officialCover, 'game_show_official_cover', 30, 40) }}
+                        width="150"
+                        height="200"
+                        alt="{{ '%s | %s (%s)'|format(game.title, game.developer.name, game.parutionDate|date('Y')) }}"
+                    />
+                {% endif %}
+
+                <span>{{ '%s (%s)'|format(game.developer.name, game.parutionDate|date('Y')) }}</span>
+            </a>
+
+            <nav class="thumbnails" {{ stimulus_controller('game-thumbnails-parallax') }}>
+                <div>
+                    <ul>
+                        {% for screen in game.screens %}
+                            <li>
+                                <a href="{{ '#screen-%d'|format(loop.index) }}">
+                                    <img
+                                        {{ macros.imageSrcsetWithBlurHash(screen.path, 'game_show_thumbnails', 26, 17) }}
+                                        width="320"
+                                        height="179"
+                                        class="{{ screen.spoiler ? 'spoiler' }}"
+                                    />
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="play-info">
+            <span class="played-at mb-3">Played on {{ game.playedAt|date('F Y') }}</span>
+
+            <div class="relative pt-1"
+                {% block score_title %}title="Ogi's appreciation & recommendation in %"{% endblock %}>
+                <div class="overflow-hidden h-2 mb-2 text-xs flex rounded bg-gray-400 bg-opacity-40">
+                    <div style="width:{{ game.score }}%"
+                        class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-400 bg-opacity-40"></div>
+                </div>
+                <div class="flex mb-2 items-center justify-between">
+                    <div>
+                        {% if game.sealOfApproval %}
+                            <span class="text-xs font-semibold inline-block rounded-full text-gray-500 cursor-help"
+                                title="The author highly recommends this title">
+                                <i class="icon icon-star-full"></i> Ogi's seal of approval
+                            </span>
+                        {% endif %}
+                    </div>
+                    <div class="text-right">
+                      <span class="text-xs font-semibold inline-block text-gray-500 cursor-help" {{ block('score_title') }}>
+                        <i class="icon icon-heart"></i> {{ game.score }}
+                      </span>
+                    </div>
+                </div>
+            </div>
+
+            <span class="publication_date text-sm text-gray-600">Shiny extracts on {{ game.publishDate|date('d F Y') }}</span>
+        </section>
+
+        <section class="screenshots">
+            {% for screen in game.screens %}
+                <article
+                    id="{{ 'screen-%d'|format(loop.index) }}"
+                    class="{{ screen.spoiler ? 'spoiler' }}"
+                    {{ screen.spoiler ? stimulus_controller('spoiler') }}
+                >
+                    <div
+                        class="ambiant-bg"
+                        style="background-image: url('{{ macros.blurHash(screen.path, 80, 45, ambiant_light) }}')"
+                        aria-hidden="true"
+                    ></div>
+
+                    <a href="{{ asset(screen.path) }}" target="_blank">
+                        {% if screen.gif %}
+                            <video autoplay loop muted playsinline poster="{{ macros.blurHash(screen.path, 160, 90) }}">
+                                <source type="video/webm" src="{{ asset(screen.webm) }}">
+                                <img
+                                    src="{{ macros.blurHash(screen.path, 160, 90) }}"
+                                    style="max-width: min(1280px, 100%)"
+                                    width="1280"
+                                />
+{#                                <img#}
+{#                                    {{ macros.blurHashImage(screen.path, 160, 90) }}#}
+{#                                    data-hd-add-width="1280"#}
+{#                                    style="max-width: min(1280px, 100%)"#}
+{#                                    class="gif"#}
+{#                                />#}
+                            </video>
+                        {% else %}
+                            <img {{ macros.imageSrcsetWithBlurHash(screen.path, 'game_show_screen', 160, 90) }} width="1280" />
+                        {% endif %}
+                    </a>
+                </article>
+            {% endfor %}
+        </section>
+
+        <nav class="page-end">
+            <a href="{{ path('games') }}">
+                <i class="icon icon-arrow-left2"></i> Back to games
+            </a>
+
+            {% if game.tweetId %}
+                {% apply spaceless %}
+                    <a href="{{ external_url('twitter_like', { tweet_id: game.tweetId }) }}" class="item" target="_blank">
+                        <i class="icon icon-heart"></i> Like this content
+                    </a>
+                {% endapply %}
+            {% endif %}
+        </nav>
+    </main>
+{% endblock %}

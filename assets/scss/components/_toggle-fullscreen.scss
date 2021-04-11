@@ -1,0 +1,10 @@
+.fullscreen .icon-fullscreen-toggle::before {
+  content: map-get($icons, 'shrink');
+}
+.icon-fullscreen-toggle::before {
+  content: map-get($icons, 'enlarge');
+}
+
+.btn-fullscreen-toggle {
+  @apply hidden lg:block
+}

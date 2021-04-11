@@ -1,0 +1,6 @@
+stenope:
+    providers:
+        App\Model\Game: '%kernel.project_dir%/content/games'
+
+    resolve_links:
+        App\Model\Game: { route: 'game', slug: 'article' }

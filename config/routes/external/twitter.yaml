@@ -1,0 +1,10 @@
+twitter_like:
+    # https://developer.twitter.com/en/docs/twitter-for-websites/web-intents/overview#like-a-tweet
+    path: /intent/like
+    # Expects a "tweet_id" query param
+
+twitter_account:
+    path: /{accountId}
+
+twitter_tweet:
+    path: /{accountId}/status/{tweetId}

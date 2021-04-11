@@ -1,0 +1,53 @@
+{% macro backgroundImageSrcset(path, preset) -%}
+    background-image: url('{{ asset(path|glide_image_preset(preset)) }}');
+    {% for prefix in ['webkit', 'moz', 'ms'] -%}
+    background-image: -{{ prefix }}-image-set(
+        url('{{ asset(path|glide_image_preset(preset)) }}') 1x,
+        url('{{ asset(path|glide_image_preset(preset, { dpr: 2 })) }}') 2x
+    );
+    {% endfor -%}
+    background-image: image-set(
+        url('{{ asset(path|glide_image_preset(preset)) }}') 1x,
+        url('{{ asset(path|glide_image_preset(preset, { dpr: 2 })) }}') 2x
+    );
+{%- endmacro %}
+
+{% macro imageSrcset(path, preset) %}
+    src="{{ asset(path|glide_image_preset(preset)) }}"
+    srcset="
+        {{ asset(path|glide_image_preset(preset)) }} 1x,
+        {{ asset(path|glide_image_preset(preset, { dpr: 2 })) }} 2x
+    "
+{% endmacro %}
+
+{% macro imageSrcsetWithBlurHash(path, preset, width, height) %}
+    {% if (blur_hash ?? false) is same as(true) %}
+        src="{{ data_uri_thumbnail(public_dir ~ '/' ~ path, width, height) }}"
+        {{ stimulus_controller('lazy-image') }}
+        data-hd-src="{{ asset(path|glide_image_preset(preset)) }}"
+        data-hd-srcset="
+            {{ asset(path|glide_image_preset(preset)) }} 1x,
+            {{ asset(path|glide_image_preset(preset, { dpr: 2 })) }} 2x
+        "
+    {% else %}
+        {{ _self.imageSrcset(path, preset) }}
+    {% endif %}
+{% endmacro %}
+
+{% macro blurHashImage(path, width, height) %}
+    {% if (blur_hash ?? false) is same as(true) %}
+        src="{{ data_uri_thumbnail(public_dir ~ '/' ~ path, width, height) }}"
+        {{ stimulus_controller('lazy-image') }}
+        data-hd-src="{{ asset(path) }}"
+    {% else %}
+        src="{{ asset(path) }}"
+    {% endif %}
+{% endmacro %}
+
+{% macro blurHash(path, width, height, force = null) -%}
+    {%- if (force ?? false or blur_hash ?? false) is same as(true) -%}
+        {{- data_uri_thumbnail(public_dir ~ '/' ~ path, width, height) -}}
+    {%- else -%}
+        {{ asset(path) -}}
+    {%- endif -%}
+{%- endmacro %}

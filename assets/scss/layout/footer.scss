@@ -1,0 +1,21 @@
+body > footer {
+  @apply border-t-2 border-gray-800 p-10 w-screen;
+
+  background-color: #08080a;
+
+  nav {
+    @apply container mx-auto lg:max-w-4xl;
+  }
+
+  ul {
+    @apply flex flex-row justify-center;
+
+    li {
+      @apply flex-1 text-center px-3;
+    }
+
+    a {
+      @apply text-white text-sm;
+    }
+  }
+}

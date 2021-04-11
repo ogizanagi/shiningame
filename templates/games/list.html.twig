@@ -1,0 +1,31 @@
+{% import "macros.html.twig" as macros %}
+{% extends 'base.html.twig' %}
+
+{% set lastGame = games|first %}
+{% block twitter_card_type 'summary_large_image' %}
+{% block twitter_image absolute_url(asset((lastGame.twitterImage ?? lastGame.cover)|glide_image_preset('twitter_card_image'))) %}
+{% block og_image asset((lastGame.ogImage ?? lastGame.cover)|glide_image_preset('opengraph_image')) %}
+
+{% set pageClasses = 'page_games' %}
+
+{% block layout %}
+<main>
+    {{ include('layout/main_nav.html.twig') }}
+
+    {% apply spaceless %}
+        <button type="button" class="item btn-fullscreen-toggle" {{ stimulus_controller('fullscreen') }}>
+            <i class="icon icon-fullscreen-toggle"></i>
+        </button>
+    {% endapply %}
+
+    {% for game in games %}
+        <article class="game" style="{{ macros.backgroundImageSrcset(game.cover, 'game_list_cover') }}">
+            <header>
+                <a href="{{ path('game', { game: game.slug }) }}">
+                    <h2>{{ '%s (%s)'|format(game.title, game.parutionDate|date('Y')) }}</h2>
+                </a>
+            </header>
+        </article>
+    {% endfor %}
+</main>
+{% endblock %}

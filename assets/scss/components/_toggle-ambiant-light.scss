@@ -1,0 +1,10 @@
+.ambiant .icon-ambiant-light-toggle::before {
+  content: map-get($icons, 'lightbulb');
+}
+.icon-ambiant-light-toggle::before {
+  content: map-get($icons, 'lightbulb_outline');
+}
+
+.btn-ambiant-light-toggle {
+  @apply hidden lg:block
+}

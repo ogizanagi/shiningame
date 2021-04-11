@@ -1,0 +1,57 @@
+# Game info
+title: The Pathless
+officialCover: 'images/games/the-pathless/official-cover.jpg'
+developer:
+  name: Giant Squid
+  website: https://giantsquidstudios.com
+parutionDate: '2020-11-12'
+
+# Play info
+device: PS5
+score: 95
+sealOfApproval: true
+playedAt: '2021-03-29'
+
+# Screens
+cover: 'images/games/the-pathless/001.jpg'
+banner: ~
+screens:
+  - { path: 'images/games/the-pathless/001.jpg' }
+  - { path: 'images/games/the-pathless/002.gif' }
+  - { path: 'images/games/the-pathless/003.jpg' }
+  - { path: 'images/games/the-pathless/004.jpg' }
+  - { path: 'images/games/the-pathless/005.jpg', spoiler: true }
+  - { path: 'images/games/the-pathless/006.jpg' }
+  - { path: 'images/games/the-pathless/20210328113714.jpg' }
+  - { path: 'images/games/the-pathless/007.jpg' }
+  - { path: 'images/games/the-pathless/20210327194557.jpg' }
+  - { path: 'images/games/the-pathless/20210327223821.jpg' }
+
+  - { path: 'images/games/the-pathless/008.jpg' }
+  - { path: 'images/games/the-pathless/20210328185408.jpg' }
+  - { path: 'images/games/the-pathless/20210328165426.jpg' }
+  - { path: 'images/games/the-pathless/20210328165238.jpg', spoiler: true }
+  - { path: 'images/games/the-pathless/20210328165334.jpg' }
+  - { path: 'images/games/the-pathless/20210328190143.jpg', spoiler: true }
+  - { path: 'images/games/the-pathless/20210328191335.jpg', spoiler: true }
+  - { path: 'images/games/the-pathless/009.jpg' }
+
+# Publication
+publishDate: '2021-03-29'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+#ogImage: ~
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+#twitterImage: ~

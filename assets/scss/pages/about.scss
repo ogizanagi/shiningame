@@ -1,0 +1,41 @@
+.page_about {
+  @apply
+    w-screen
+    overflow-x-hidden
+  ;
+
+  body {
+    @apply
+      flex flex-col
+      h-screen
+    ;
+  }
+
+  main {
+    @apply
+      container
+      mx-auto
+      flex-1
+    ;
+  }
+
+  section.about-text {
+    @apply
+      text-white
+      my-8 md:my-16 xl:my-20
+      px-10 xl:px-64
+      text-2xl
+      leading-10
+    ;
+
+    p {
+      @apply py-5;
+    }
+
+    a {
+      @apply
+        text-blue-400 hover:text-blue-300
+      ;
+    }
+  }
+}

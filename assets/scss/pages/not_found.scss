@@ -1,0 +1,54 @@
+.page_not_found {
+  @apply
+    w-screen
+    overflow-x-hidden
+  ;
+
+  body {
+    @apply
+      flex flex-col
+      h-screen
+    ;
+  }
+
+  main {
+    @apply
+      container
+      mx-auto
+      flex-1
+    ;
+  }
+
+  section {
+    @apply
+      text-white
+      mt-16 xl:mt-32
+      px-10 xl:px-64
+      text-xl
+      flex flex-col
+      items-center
+    ;
+
+    * {
+      @apply flex-grow-0
+    }
+
+    h2 {
+      @apply text-4xl mb-5;
+
+      font-family: comfortaa bold;
+    }
+
+    p {
+      @apply py-5 text-center;
+    }
+
+    nav.actions {
+      @apply mt-5;
+
+      a {
+        @apply text-blue-400 hover:text-blue-300;
+      }
+    }
+  }
+}

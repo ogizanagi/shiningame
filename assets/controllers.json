@@ -1,0 +1,11 @@
+{
+    "controllers": {
+        "@symfony/ux-lazy-image": {
+            "lazy-image": {
+                "enabled": true,
+                "fetch": "eager"
+            }
+        }
+    },
+    "entrypoints": []
+}

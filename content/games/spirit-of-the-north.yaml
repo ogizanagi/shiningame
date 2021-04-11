@@ -1,0 +1,55 @@
+# Game info
+title: Spirit of the North
+officialCover: 'images/games/spirit-of-the-north/official-cover.jpg'
+developer:
+  name: Infuse Studio
+  website: https://infusedstudio.com/
+parutionDate: '2019-11-01'
+
+# Play info
+device: PS5
+score: 60
+sealOfApproval: false
+playedAt: '2021-04-01'
+
+# Screens
+cover: 'images/games/spirit-of-the-north/20210401210401.jpg'
+banner: 'images/games/spirit-of-the-north/20210331223707.jpg'
+screens:
+  - { path: 'images/games/spirit-of-the-north/20210331215753.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210331222739.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210331222914.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210331223107.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210331223317.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210331223707.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210331224749.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210331225904.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210331230025.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210401210129.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210401210401.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210408204004.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210408204338.jpg', spoiler: true }
+  - { path: 'images/games/spirit-of-the-north/20210408204649.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210408204706.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210408211447.jpg' }
+  - { path: 'images/games/spirit-of-the-north/20210408212135.jpg' }
+
+# Publication
+publishDate: '2021-04-01'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+#ogImage: ~
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+#twitterImage: ~
