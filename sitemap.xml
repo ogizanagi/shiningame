@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <url>
             <loc>https://ogizanagi.github.io/shiningame/</loc>
-            <lastmod>2021-04-11T16:15:47+00:00</lastmod>            <priority>0</priority>            <changefreq>monthly</changefreq>
+            <lastmod>2021-04-13T15:47:26+00:00</lastmod>            <priority>0</priority>            <changefreq>monthly</changefreq>
         </url>
             <url>
-            <loc>https://ogizanagi.github.io/shiningame/game</loc>
-            <lastmod>2021-04-11T16:14:49+00:00</lastmod>                        <changefreq>monthly</changefreq>
+            <loc>https://ogizanagi.github.io/shiningame/about</loc>
+            <lastmod>2021-04-13T15:47:26+00:00</lastmod>                        <changefreq>monthly</changefreq>
         </url>
             <url>
-            <loc>https://ogizanagi.github.io/shiningame/game/spirit-og-the-north</loc>
-            <lastmod>2021-04-11T16:14:49+00:00</lastmod>                        <changefreq>monthly</changefreq>
+            <loc>https://ogizanagi.github.io/shiningame/games</loc>
+            <lastmod>2021-04-13T15:46:25+00:00</lastmod>                        <changefreq>monthly</changefreq>
         </url>
             <url>
-            <loc>https://ogizanagi.github.io/shiningame/game/the-pathless</loc>
-            <lastmod>2021-04-11T16:14:49+00:00</lastmod>                        <changefreq>monthly</changefreq>
+            <loc>https://ogizanagi.github.io/shiningame/games/spirit-of-the-north</loc>
+            <lastmod>2021-04-13T15:46:25+00:00</lastmod>                        <changefreq>monthly</changefreq>
+        </url>
+            <url>
+            <loc>https://ogizanagi.github.io/shiningame/games/the-pathless</loc>
+            <lastmod>2021-04-13T15:46:25+00:00</lastmod>                        <changefreq>monthly</changefreq>
         </url>
     </urlset>

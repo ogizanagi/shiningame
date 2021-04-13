@@ -2,13 +2,12 @@
   "entrypoints": {
     "app": {
       "js": [
-        "/shiningame/build/runtime.51841c4b.js",
-        "/shiningame/build/62.7dc7f6ee.js",
-        "/shiningame/build/app.ae011655.js"
+        "/shiningame/build/runtime.459ae3c1.js",
+        "/shiningame/build/3.8044b484.js",
+        "/shiningame/build/app.14834e83.js"
       ],
       "css": [
-        "/shiningame/build/62.97977e51.css",
-        "/shiningame/build/app.805286cb.css"
+        "/shiningame/build/app.ef3f0978.css"
       ]
     }
   }
