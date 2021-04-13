@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <url>
             <loc>https://shiningame.maxime-steinhausser.fr/about</loc>
-            <lastmod>2021-04-13T18:24:14+00:00</lastmod>            <priority>0</priority>            <changefreq>monthly</changefreq>
+            <lastmod>2021-04-13T18:37:32+00:00</lastmod>            <priority>0</priority>            <changefreq>monthly</changefreq>
         </url>
             <url>
             <loc>https://shiningame.maxime-steinhausser.fr/</loc>
-            <lastmod>2021-04-13T18:23:28+00:00</lastmod>                        <changefreq>monthly</changefreq>
+            <lastmod>2021-04-13T18:36:38+00:00</lastmod>                        <changefreq>monthly</changefreq>
         </url>
             <url>
             <loc>https://shiningame.maxime-steinhausser.fr/game/spirit-of-the-north</loc>
-            <lastmod>2021-04-13T18:23:28+00:00</lastmod>                        <changefreq>monthly</changefreq>
+            <lastmod>2021-04-13T18:36:38+00:00</lastmod>                        <changefreq>monthly</changefreq>
         </url>
             <url>
             <loc>https://shiningame.maxime-steinhausser.fr/game/the-pathless</loc>
-            <lastmod>2021-04-13T18:23:28+00:00</lastmod>                        <changefreq>monthly</changefreq>
+            <lastmod>2021-04-13T18:36:38+00:00</lastmod>                        <changefreq>monthly</changefreq>
         </url>
     </urlset>
