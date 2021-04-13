@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <url>
-            <loc>https://ogizanagi.github.io/shiningame/</loc>
-            <lastmod>2021-04-13T16:20:57+00:00</lastmod>            <priority>0</priority>            <changefreq>monthly</changefreq>
+            <loc>https://shiningame.maxime-steinhausser.fr/</loc>
+            <lastmod>2021-04-13T16:33:24+00:00</lastmod>            <priority>0</priority>            <changefreq>monthly</changefreq>
         </url>
             <url>
-            <loc>https://ogizanagi.github.io/shiningame/about</loc>
-            <lastmod>2021-04-13T16:20:57+00:00</lastmod>                        <changefreq>monthly</changefreq>
+            <loc>https://shiningame.maxime-steinhausser.fr/about</loc>
+            <lastmod>2021-04-13T16:33:24+00:00</lastmod>                        <changefreq>monthly</changefreq>
         </url>
             <url>
-            <loc>https://ogizanagi.github.io/shiningame/games</loc>
-            <lastmod>2021-04-13T16:20:00+00:00</lastmod>                        <changefreq>monthly</changefreq>
+            <loc>https://shiningame.maxime-steinhausser.fr/games</loc>
+            <lastmod>2021-04-13T16:32:30+00:00</lastmod>                        <changefreq>monthly</changefreq>
         </url>
             <url>
-            <loc>https://ogizanagi.github.io/shiningame/games/spirit-of-the-north</loc>
-            <lastmod>2021-04-13T16:20:00+00:00</lastmod>                        <changefreq>monthly</changefreq>
+            <loc>https://shiningame.maxime-steinhausser.fr/games/spirit-of-the-north</loc>
+            <lastmod>2021-04-13T16:32:30+00:00</lastmod>                        <changefreq>monthly</changefreq>
         </url>
             <url>
-            <loc>https://ogizanagi.github.io/shiningame/games/the-pathless</loc>
-            <lastmod>2021-04-13T16:20:00+00:00</lastmod>                        <changefreq>monthly</changefreq>
+            <loc>https://shiningame.maxime-steinhausser.fr/games/the-pathless</loc>
+            <lastmod>2021-04-13T16:32:30+00:00</lastmod>                        <changefreq>monthly</changefreq>
         </url>
     </urlset>
