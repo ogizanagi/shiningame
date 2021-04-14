@@ -10,7 +10,7 @@ parameters:
         social:
             github: ogizanagi
             twitter: ogizanagi
-            like_on_twitter: 12345 # TODO: update
+            like_on_twitter: "1382320471572676609"
 
 services:
     # default configuration for services in *this* file
