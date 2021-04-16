@@ -1,0 +1,65 @@
+# Game info
+title: Journey
+officialCover: 'images/games/journey/official-cover.jpg'
+developer:
+  name: thatgamecompany
+  website: https://thatgamecompany.com
+parutionDate: '2012-03-13'
+
+# Play info
+device: PS4
+score: 95
+sealOfApproval: true
+playedAt: '2019-08-25'
+
+# Screens
+cover: 'images/games/journey/Journey_20210416151532.jpg'
+banner: 'images/games/journey/Journey_20210416151542.jpg'
+screens:
+  - { path: 'images/games/journey/Journey_20210416151532.jpg' }
+  - { path: 'images/games/journey/Journey_20210416151542.jpg' }
+  - { path: 'images/games/journey/Journey_20210416152220.jpg' }
+  - { path: 'images/games/journey/Journey_20210416170316.jpg' }
+  - { path: 'images/games/journey/Journey_20210416170448.jpg' }
+  - { path: 'images/games/journey/Journey_20210416170522.jpg' }
+  - { path: 'images/games/journey/Journey_20210416171148.jpg' }
+  - { path: 'images/games/journey/Journey_20210416171254.jpg' }
+  - { path: 'images/games/journey/Journey_20210416171617.jpg' }
+  - { path: 'images/games/journey/Journey_20210416152813.jpg' }
+  - { path: 'images/games/journey/Journey_20210416153123.jpg' }
+  - { path: 'images/games/journey/Journey_20210416153250.jpg' }
+  - { path: 'images/games/journey/Journey_20210416153331.jpg' }
+  - { path: 'images/games/journey/Journey_20210416153356.jpg' }
+  - { path: 'images/games/journey/Journey_20210416153617.jpg' }
+  - { path: 'images/games/journey/Journey_20210416154410.jpg' }
+  - { path: 'images/games/journey/Journey_20210416154436.jpg' }
+  - { path: 'images/games/journey/Journey_20210416154700.jpg' }
+  - { path: 'images/games/journey/Journey_20210416154957.jpg' }
+  - { path: 'images/games/journey/Journey_20210416155052.jpg' }
+  - { path: 'images/games/journey/Journey_20210416155512.jpg' }
+  - { path: 'images/games/journey/Journey_20210416160813.jpg' }
+  - { path: 'images/games/journey/Journey_20210416163739.jpg' }
+  - { path: 'images/games/journey/Journey_20210416163958.jpg' }
+  - { path: 'images/games/journey/Journey_20210416164348.jpg' }
+  - { path: 'images/games/journey/Journey_20210416165002.jpg' }
+  - { path: 'images/games/journey/Journey_20210416165113.jpg' }
+
+# Publication
+publishDate: '2021-04-16'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+#ogImage: ~
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+#twitterImage: ~
