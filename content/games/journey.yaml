@@ -18,13 +18,13 @@ banner: 'images/games/journey/Journey_20210416151542.jpg'
 screens:
   - { path: 'images/games/journey/Journey_20210416151532.jpg' }
   - { path: 'images/games/journey/Journey_20210416151542.jpg' }
+  - { path: 'images/games/journey/Journey_20210416171617.jpg' }
   - { path: 'images/games/journey/Journey_20210416152220.jpg' }
   - { path: 'images/games/journey/Journey_20210416170316.jpg' }
   - { path: 'images/games/journey/Journey_20210416170448.jpg' }
   - { path: 'images/games/journey/Journey_20210416170522.jpg' }
   - { path: 'images/games/journey/Journey_20210416171148.jpg' }
   - { path: 'images/games/journey/Journey_20210416171254.jpg' }
-  - { path: 'images/games/journey/Journey_20210416171617.jpg' }
   - { path: 'images/games/journey/Journey_20210416152813.jpg' }
   - { path: 'images/games/journey/Journey_20210416153123.jpg' }
   - { path: 'images/games/journey/Journey_20210416153250.jpg' }
