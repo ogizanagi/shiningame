@@ -1,0 +1,2 @@
+youtube_embed:
+    path: embed/{videoId}

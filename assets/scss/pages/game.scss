@@ -193,7 +193,6 @@
         py-3
         px-5
         last:mb-5
-        first:mt-10
         max-w-full
         overflow-hidden
       ;
@@ -319,6 +318,7 @@
       container
       mx-auto
       mt-32
+      mb-10
       px-10 xl:px-64
       text-gray-400
       flex
@@ -332,6 +332,52 @@
 
     .played-at {
       @apply text-center;
+    }
+  }
+
+  section.soundtrack {
+    @apply
+      h-screen
+      flex
+      flex-col
+      justify-center
+      align-middle
+      content-center
+      items-center
+      py-3
+      px-5
+      max-w-full
+      overflow-hidden
+    ;
+
+    scroll-snap-align: start;
+
+    h2 {
+      @apply
+        text-gray-400
+        text-2xl
+        p-3
+      ;
+    }
+
+    @media (min-aspect-ratio: 1/3) and (orientation: portrait ) {
+      @apply
+      h-third-screen
+      ;
+    }
+    @media (min-aspect-ratio: 1/2) and (orientation: portrait ) {
+      @apply
+      h-demi-screen
+      ;
+    }
+
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+
+    iframe {
+      @apply w-full;
+
+      max-width: 1440px;
     }
   }
 

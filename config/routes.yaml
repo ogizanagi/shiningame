@@ -18,6 +18,14 @@ github:
         stenope:
             ignore: true
 
+youtube:
+    schemes: https
+    host: www.youtube.com
+    resource: routes/external/youtube.yaml
+    options:
+        stenope:
+            ignore: true
+
 errors_404:
     path: 404.html
     controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController

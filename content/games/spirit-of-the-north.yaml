@@ -34,6 +34,9 @@ screens:
   - { path: 'images/games/spirit-of-the-north/20210408211447.jpg' }
   - { path: 'images/games/spirit-of-the-north/20210408212135.jpg' }
 
+# Other
+soundtrack: ~
+
 # Publication
 publishDate: '2021-04-01'
 

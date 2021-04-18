@@ -1,0 +1,76 @@
+# Game info
+title: Shady Part of Me
+officialCover: 'images/games/shady-part-of-me/official-cover.jpg'
+developer:
+  name: Douze Dixiemes
+  website: https://www.focus-home.com/fr-fr/games/shady-part-of-me
+parutionDate: '2020-12-10'
+
+# Play info
+device: Nintendo Switch
+score: 95
+sealOfApproval: true
+playedAt: '2021-01-01'
+
+# Screens
+cover: 'images/games/shady-part-of-me/2021041719493600.jpg'
+banner: 'images/games/shady-part-of-me/2021041719490000.jpg'
+screens:
+  - { path: 'images/games/shady-part-of-me/2021041719493600.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041719524400.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723322700.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723385400.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723403600.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723404900.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041719490000.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041721474700.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041721485200.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722002000.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722005100.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722015600.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722053100.jpg', spoiler: true }
+  - { path: 'images/games/shady-part-of-me/2021041722060300.jpg', spoiler: true }
+  - { path: 'images/games/shady-part-of-me/2021041722070300.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722082500.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722094600.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722153800.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722224900.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722225900.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722261500.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722290400.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722342500.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041722461700.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723010600.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723063600.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723080700.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723142300.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723153700.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723191700.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723193200.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723194300.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723211400.jpg' }
+  - { path: 'images/games/shady-part-of-me/2021041723252500.jpg', spoiler: true }
+  - { path: 'images/games/shady-part-of-me/2021041723263900.jpg', spoiler: true }
+
+# Other
+soundtrack: VF31Fm8f39I
+
+# Publication
+publishDate: '2021-04-17'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+#ogImage: ~
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+#twitterImage: ~

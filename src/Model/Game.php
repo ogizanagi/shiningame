@@ -31,6 +31,9 @@ class Game
     /** @var Screenshot[] */
     public array $screens = [];
 
+    // Other
+    public ?string $soundtrack = null;
+
     // Publication
     public ?\DateTimeImmutable $publishDate = null;
 

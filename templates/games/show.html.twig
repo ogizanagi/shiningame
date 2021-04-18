@@ -79,6 +79,7 @@
         </header>
 
         <section class="play-info">
+            <h2 class="hidden">Play info</h2>
             <span class="played-at mb-3">Played on {{ game.playedAt|date('F Y') }}</span>
 
             <div class="relative pt-1"
@@ -107,7 +108,21 @@
             <span class="publication_date text-sm text-gray-600">Shiny extracts on {{ game.publishDate|date('d F Y') }}</span>
         </section>
 
+        {% if game.soundtrack is not empty %}
+            <section class="soundtrack">
+                <h2>Soundtrack</h2>
+                <iframe width="1440" height="810" src="{{ external_url('youtube_embed', {
+                    videoId: game.soundtrack,
+                }) }}"
+                    title="{{ game.title }}'s soundtrack"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope">
+                </iframe>
+            </section>
+        {% endif %}
+
         <section class="screenshots">
+            <h2 class="hidden">Screenshots</h2>
             {% for screen in game.screens %}
                 <article
                     id="{{ 'screen-%d'|format(loop.index) }}"

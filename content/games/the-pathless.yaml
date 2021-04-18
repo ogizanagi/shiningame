@@ -36,6 +36,9 @@ screens:
   - { path: 'images/games/the-pathless/20210328191335.jpg', spoiler: true }
   - { path: 'images/games/the-pathless/009.jpg' }
 
+# Other
+soundtrack: ~
+
 # Publication
 publishDate: '2021-03-29'
 
