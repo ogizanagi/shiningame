@@ -10,6 +10,7 @@ import { Controller } from 'stimulus';
  */
 export default class extends Controller {
   static ready = true;
+  static done = [];
 
   connect() {
     // Add a tmp width attribute if asked:
@@ -17,8 +18,11 @@ export default class extends Controller {
       this.element.width = this.element.getAttribute('data-hd-add-width');
     }
 
+    const hdSrc = this.element.getAttribute('data-hd-src');
+    const hdSrcSet = this.element.getAttribute('data-hd-srcset');
+
     const interval = setInterval(() => {
-      if (!this.constructor.ready) {
+      if (!this.constructor.ready && !this.constructor.done.includes(hdSrc)) {
         return;
       }
 
@@ -29,9 +33,9 @@ export default class extends Controller {
       const hd = new Image();
 
       hd.addEventListener('load', () => {
-        this.element.src = this.element.getAttribute('data-hd-src');
-        if (this.element.getAttribute('data-hd-srcset')) {
-          this.element.srcset = this.element.getAttribute('data-hd-srcset');
+        this.element.src = hdSrc;
+        if (hdSrcSet) {
+          this.element.srcset = hdSrcSet;
         }
 
         // Remove the tmp width attribute asked
@@ -43,11 +47,12 @@ export default class extends Controller {
 
         // Let the next image load:
         this.constructor.ready = true;
+        this.constructor.done.push(hdSrc);
       });
 
-      hd.src = this.element.getAttribute('data-hd-src');
-      if (this.element.getAttribute('data-hd-srcset')) {
-        hd.srcset = this.element.getAttribute('data-hd-srcset');
+      hd.src = hdSrc;
+      if (hdSrcSet) {
+        hd.srcset = hdSrcSet;
       }
 
       this._dispatchEvent('lazy-image:connect', { hd });
