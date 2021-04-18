@@ -14,6 +14,7 @@ glide:
 
         game_show_banner:
             h: 800
+            q: 80
 
         game_show_screen:
             w: 1280
@@ -21,15 +22,19 @@ glide:
         game_show_thumbnails:
             w: 320
             h: 179
+            q: 70
 
         game_show_official_cover:
             w: 150
             h: 200
+            q: 80
 
         twitter_card_image:
             w: 600
             h: 300
+            q: 85
 
         opengraph_image:
             w: 1200
             h: 627
+            q: 85
