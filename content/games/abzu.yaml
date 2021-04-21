@@ -14,7 +14,7 @@ playedAt: '2021-04-20'
 
 # Screens
 cover: 'images/games/abzu/20210420214528.jpg'
-banner: 'images/games/abzu/20210420203011.jpg'
+banner: 'images/games/abzu/20210420224130.jpg'
 screens:
   - { path: 'images/games/abzu/20210420210221.jpg' }
   - { path: 'images/games/abzu/20210420214528.jpg' }
