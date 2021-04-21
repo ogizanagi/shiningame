@@ -14,7 +14,7 @@ playedAt: '2021-01-01'
 
 # Screens
 cover: 'images/games/shady-part-of-me/2021041719493600.jpg'
-banner: 'images/games/shady-part-of-me/2021041719490000.jpg'
+banner: 'images/games/shady-part-of-me/2021041723193200.jpg'
 screens:
   - { path: 'images/games/shady-part-of-me/2021041719493600.jpg' }
   - { path: 'images/games/shady-part-of-me/2021041719524400.jpg' }
