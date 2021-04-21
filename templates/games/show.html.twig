@@ -30,7 +30,7 @@
                         </a>
                     {% endif %}
                 {% endapply %}
-                <span class="item game-device" title="Played on {{ game.device }}">{{ game.device }}</span>
+                <span class="item game-device" title="Played in {{ game.device }}">{{ game.device }}</span>
                 {% apply spaceless %}
                     <button type="button" class="item btn-ambiant-light-toggle animate-pulse" {{ stimulus_controller('ambiant-light') }} title="Ambiant lights mode">
                         <i class="icon icon-ambiant-light-toggle"></i>
