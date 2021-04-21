@@ -1,0 +1,66 @@
+# Game info
+title: ABZÛ
+officialCover: 'images/games/abzu/official-cover.jpg'
+developer:
+  name: Giant Squid
+  website: https://giantsquidstudios.com
+parutionDate: '2016-08-02'
+
+# Play info
+device: PS4
+score: 85
+sealOfApproval: true
+playedAt: '2021-04-20'
+
+# Screens
+cover: 'images/games/abzu/20210420214528.jpg'
+banner: 'images/games/abzu/20210420203011.jpg'
+screens:
+  - { path: 'images/games/abzu/20210420210221.jpg' }
+  - { path: 'images/games/abzu/20210420214528.jpg' }
+  - { path: 'images/games/abzu/20210420220000.jpg' }
+  - { path: 'images/games/abzu/20210420214549.jpg' }
+  - { path: 'images/games/abzu/20210420204612.jpg' }
+  - { path: 'images/games/abzu/20210420214853.jpg' }
+  - { path: 'images/games/abzu/20210420220636.jpg' }
+  - { path: 'images/games/abzu/20210420220925.jpg' }
+  - { path: 'images/games/abzu/20210420221017.jpg' }
+  - { path: 'images/games/abzu/20210420224130.jpg' }
+  - { path: 'images/games/abzu/20210420224143.jpg' }
+  - { path: 'images/games/abzu/20210420224240.jpg' }
+  - { path: 'images/games/abzu/20210420224258.jpg' }
+  - { path: 'images/games/abzu/20210420224035.jpg' }
+  - { path: 'images/games/abzu/20210420225954.jpg' }
+  - { path: 'images/games/abzu/20210420230037.jpg', spoiler: true }
+  - { path: 'images/games/abzu/20210420234831.jpg', spoiler: true }
+  - { path: 'images/games/abzu/20210420230422.jpg', spoiler: true }
+  - { path: 'images/games/abzu/20210420231109.jpg' }
+  - { path: 'images/games/abzu/20210420231741.jpg' }
+  - { path: 'images/games/abzu/20210420232502.jpg' }
+  - { path: 'images/games/abzu/20210420232943.jpg' }
+  - { path: 'images/games/abzu/20210420232945.jpg' }
+  - { path: 'images/games/abzu/20210420233152.jpg', spoiler: true }
+  - { path: 'images/games/abzu/20210420233429.jpg', spoiler: true }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2021-04-21'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+#ogImage: ~
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+#twitterImage: ~
