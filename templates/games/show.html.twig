@@ -30,7 +30,7 @@
                         </a>
                     {% endif %}
                 {% endapply %}
-                <span class="item game-device" title="Played in {{ game.device }}">{{ game.device }}</span>
+                <span class="item game-device" title="Played on {{ game.device }}">{{ game.device }}</span>
                 {% apply spaceless %}
                     <button type="button" class="item btn-ambiant-light-toggle animate-pulse" {{ stimulus_controller('ambiant-light') }} title="Ambiant lights mode">
                         <i class="icon icon-ambiant-light-toggle"></i>
@@ -81,7 +81,7 @@
 
         <section class="play-info">
             <h2 class="hidden">Play info</h2>
-            <span class="played-at mb-3">Played on {{ game.playedAt|date('F Y') }}</span>
+            <span class="played-at mb-3">Played in {{ game.playedAt|date('F Y') }}</span>
 
             <div class="relative pt-1"
                 {% block score_title %}title="Ogi's appreciation & recommendation in %"{% endblock %}>
