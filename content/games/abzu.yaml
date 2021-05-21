@@ -20,7 +20,7 @@ screens:
   - { path: 'images/games/abzu/20210420214528.jpg' }
   - { path: 'images/games/abzu/20210420220000.jpg' }
   - { path: 'images/games/abzu/20210420214549.jpg' }
-  - { path: 'images/games/abzu/20210420204612.jpg' }
+  - { path: 'images/games/abzu/20210420204612.jpg', anchor: screen-5 }
   - { path: 'images/games/abzu/20210420214853.jpg' }
   - { path: 'images/games/abzu/20210420220636.jpg' }
   - { path: 'images/games/abzu/20210420220925.jpg' }

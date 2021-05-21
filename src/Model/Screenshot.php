@@ -10,6 +10,8 @@ class Screenshot
 
     public bool $spoiler = false;
 
+    private ?string $anchor;
+
     public function isGif(): bool
     {
         return pathinfo($this->path, PATHINFO_EXTENSION) === 'gif';
@@ -18,5 +20,15 @@ class Screenshot
     public function getWebm(): string
     {
         return pathinfo($this->path, PATHINFO_DIRNAME) . '/' . pathinfo($this->path, PATHINFO_FILENAME) . '.webm';
+    }
+
+    public function getAnchor(): string
+    {
+        return $this->anchor ?? pathinfo($this->path, PATHINFO_FILENAME);
+    }
+
+    public function setAnchor(?string $anchor = null): void
+    {
+        $this->anchor = $anchor;
     }
 }

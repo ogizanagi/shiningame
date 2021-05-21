@@ -28,7 +28,7 @@ screens:
   - { path: 'images/games/the-pathless/20210327223821.jpg' }
 
   - { path: 'images/games/the-pathless/008.jpg' }
-  - { path: 'images/games/the-pathless/20210328185408.jpg' }
+  - { path: 'images/games/the-pathless/20210328185408.jpg', anchor: screen-12 }
   - { path: 'images/games/the-pathless/20210328165426.jpg' }
   - { path: 'images/games/the-pathless/20210328165238.jpg', spoiler: true }
   - { path: 'images/games/the-pathless/20210328165334.jpg' }

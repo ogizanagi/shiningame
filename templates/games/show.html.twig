@@ -63,7 +63,7 @@
                     <ul>
                         {% for screen in game.screens %}
                             <li>
-                                <a href="{{ '#screen-%d'|format(loop.index) }}">
+                                <a href="{{ '#%s'|format(screen.anchor) }}">
                                     <img
                                         {{ macros.imageSrcsetWithBlurHash(screen.path, 'game_show_screen', 26, 17) }}
                                         {#{{ macros.imageSrcsetWithBlurHash(screen.path, 'game_show_thumbnails', 26, 17) }}#}
@@ -126,7 +126,7 @@
             <h2 class="hidden">Screenshots</h2>
             {% for screen in game.screens %}
                 <article
-                    id="{{ 'screen-%d'|format(loop.index) }}"
+                    id="{{ screen.anchor }}"
                     class="{{ screen.spoiler ? 'spoiler' }}"
                     {{ screen.spoiler ? stimulus_controller('spoiler') }}
                 >
