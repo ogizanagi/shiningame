@@ -1,0 +1,65 @@
+# Game info
+title: Horizon Zero Dawn
+officialCover: 'images/games/horizon-zero-dawn/official-cover.png'
+developer:
+  name: Guerrilla Games
+  website: https://www.guerrilla-games.com/
+parutionDate: '2017-02-28'
+
+# Play info
+device: PS4
+score: 90
+sealOfApproval: true
+playedAt: '2021-05-01'
+
+# Screens
+cover: 'images/games/horizon-zero-dawn/20210501204447.jpg'
+banner: 'images/games/horizon-zero-dawn/20210503224740.jpg'
+screens:
+  - { path: 'images/games/horizon-zero-dawn/20210424115124.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210501204447.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210503224740.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210504211921.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210510224150.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210510225038.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210513123318.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210513130103.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210501212558.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210502121954.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210513235256.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210514135422.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210514000914.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210514121256.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210514122427.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210514123151.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210515121206.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210515130402.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210515130027.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210515132807.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210515133047.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210515133331.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210515145254.jpg' }
+  - { path: 'images/games/horizon-zero-dawn/20210515215600.jpg' }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2021-05-22'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/horizon-zero-dawn/20210501204447.jpg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+twitterImage: 'images/games/horizon-zero-dawn/20210501204447.jpg'
