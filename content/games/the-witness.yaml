@@ -1,0 +1,59 @@
+# Game info
+title: The Witness
+officialCover: 'images/games/the-witness/official-cover.png'
+developer:
+  name: Thekla Inc.
+  website: https://twitter.com/thekla_inc
+parutionDate: '2016-01-26'
+
+# Play info
+device: PS4
+score: 75
+sealOfApproval: false
+playedAt: '2021-05-16'
+
+# Screens
+cover: 'images/games/the-witness/20210520203005.jpg'
+banner: ~
+screens:
+  - { path: 'images/games/the-witness/20210520202052.jpg' }
+  - { path: 'images/games/the-witness/20210520192909.jpg' }
+  - { path: 'images/games/the-witness/20210516135936.jpg' }
+  - { path: 'images/games/the-witness/20210516181403.jpg' }
+  - { path: 'images/games/the-witness/20210516200109.jpg' }
+  - { path: 'images/games/the-witness/20210516121115.jpg' }
+  - { path: 'images/games/the-witness/20210516184132.jpg' }
+  - { path: 'images/games/the-witness/20210516212112.jpg' }
+  - { path: 'images/games/the-witness/20210518172609.jpg' }
+  - { path: 'images/games/the-witness/20210518170510.jpg' }
+  - { path: 'images/games/the-witness/20210518164443.jpg' }
+  - { path: 'images/games/the-witness/20210518164649.jpg' }
+  - { path: 'images/games/the-witness/20210518164918.jpg' }
+  - { path: 'images/games/the-witness/20210518165117.jpg' }
+  - { path: 'images/games/the-witness/20210518175820.jpg' }
+  - { path: 'images/games/the-witness/20210518195753.jpg' }
+  - { path: 'images/games/the-witness/20210520191405.jpg' }
+  - { path: 'images/games/the-witness/20210520203005.jpg' }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2021-05-23'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+#ogImage: ~
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+#twitterImage: ~
