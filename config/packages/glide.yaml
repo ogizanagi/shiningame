@@ -30,8 +30,8 @@ glide:
             q: 80
 
         twitter_card_image:
-            w: 600
-            h: 300
+            w: 1200
+            h: 600
             q: 85
 
         opengraph_image:
