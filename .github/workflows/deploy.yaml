@@ -39,6 +39,12 @@ jobs:
           path: ${{ steps.composer-cache.outputs.directory }}
           key: composer-${{ hashFiles('composer.lock') }}
 
+      - name: 'Cache resized images'
+        uses: actions/cache@v2
+        with:
+          path: public/resized
+          key: resized-images-${{ secrets.CACHE_VERSION }}
+
       - name: 'Cache NPM dependencies'
         uses: actions/cache@v2
         with:
