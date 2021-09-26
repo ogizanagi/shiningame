@@ -1,0 +1,77 @@
+# Game info
+title: 'Kena: Bridge of Spirits'
+officialCover: 'images/games/kena-bridge-of-spirits/official-cover.jpg'
+developer:
+  name: Emberlab
+  website: https://www.emberlab.com/
+parutionDate: '2021-09-21'
+
+# Play info
+device: PS5
+score: 98
+sealOfApproval: true
+playedAt: '2021-09-21'
+
+# Screens
+cover: 'images/games/kena-bridge-of-spirits/20210922234402.jpeg'
+banner: 'images/games/kena-bridge-of-spirits/20210921102317.jpeg'
+screens:
+  - { path: 'images/games/kena-bridge-of-spirits/20210921102317.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921102423.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921102433.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921122138.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921123426.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921172540.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921153714.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921161337.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921175231.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921145710.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921185854.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921191028.jpeg', spoiler: true }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921191159.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921222425.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921211124.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921192032.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921225914.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921230117.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921232950.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210921233018.jpeg', spoiler: true }
+  - { path: 'images/games/kena-bridge-of-spirits/20210922180605.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210922202559.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210922183323.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210922203803.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210922204044.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210923230358.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210922234402.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210923232406.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210923001814.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210923211744.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210923191404.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210923192418.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210923212128.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210923220427.jpeg' }
+  - { path: 'images/games/kena-bridge-of-spirits/20210923220228.jpeg', spoiler: true }
+  - { path: 'images/games/kena-bridge-of-spirits/20210922175421.jpeg' }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2021-09-26'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: "1442138992271499268"
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/kena-bridge-of-spirits/social-cover.jpg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+twitterImage: 'images/games/kena-bridge-of-spirits/social-cover.jpg'
