@@ -29,6 +29,10 @@ dev:
 clear:
 	rm -rf build public/build
 
+## Clear resized images cache
+clear-images:
+	rm -rf public/resized
+
 #########
 # Build #
 #########
@@ -40,7 +44,6 @@ build:
 ## Build static site
 build-content: export APP_ENV = prod
 build-content:
-	rm -rf public/resized
 	bin/console cache:clear
 	bin/console stenope:build
 
@@ -57,7 +60,6 @@ build-subdir: export APP_ENV = prod
 build-subdir: export WEBPACK_PUBLIC_PATH = /shiningame/build
 build-subdir: export ROUTER_DEFAULT_URI = http://localhost:8001/shiningame
 build-subdir: clear build
-	rm -rf public/resized
 	bin/console cache:clear
 	bin/console stenope:build build/shiningame
 
