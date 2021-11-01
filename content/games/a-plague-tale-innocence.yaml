@@ -1,0 +1,65 @@
+# Game info
+title: 'A Plague Tale : Innocence'
+officialCover: 'images/games/a-plague-tale-innocence/official-cover.png'
+developer:
+  name: Asobo
+  website: https://www.asobostudio.com
+parutionDate: '2019-05-14'
+
+# Play info
+device: PS5 (optimized)
+score: 80
+sealOfApproval: true
+playedAt: '2021-10-29'
+
+# Screens
+cover: 'images/games/a-plague-tale-innocence/20211030184654.jpg'
+banner: 'images/games/a-plague-tale-innocence/20211030170218.jpg'
+screens:
+  - { path: 'images/games/a-plague-tale-innocence/20211030170218.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211030170628.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211030172042.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211030173413.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211030183119.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211030183410.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211030184654.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211030185348.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211030224448.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211030230425.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211030233601.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211031001025.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211031105310.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211031105822.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211031111716.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211031113240.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211031113514.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211031180005.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211031185948.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211101000231.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211101114711.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211101122726.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211101131028.jpg' }
+  - { path: 'images/games/a-plague-tale-innocence/20211101135153.jpg' }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2021-11-01'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/a-plague-tale-innocence/social-cover.jpg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+twitterImage: 'images/games/a-plague-tale-innocence/social-cover.jpg'
