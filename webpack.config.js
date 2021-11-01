@@ -67,7 +67,10 @@ Encore
     // options.watchFiles = [path.join(__dirname, '/templates/**/*.twig')]
 
     options.onBeforeSetupMiddleware = (devServer) => {
-      const files = [path.resolve(__dirname, 'templates/**/*.html.twig')]
+      const files = [
+        path.resolve(__dirname, 'templates/**/*.html.twig'),
+        path.resolve(__dirname, 'content/**/*.yaml'),
+      ]
 
       chokidar.watch(files).on('all', () => {
         devServer.sockWrite(devServer.sockets, 'content-changed')
