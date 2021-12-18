@@ -101,8 +101,9 @@
 
     span {
       @apply
-      text-white text-sm
+      text-white text-sm text-right
       font-thin
+      max-w-xs
       ;
     }
 

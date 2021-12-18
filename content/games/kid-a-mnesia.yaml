@@ -1,0 +1,73 @@
+# Game info
+title: 'Kid A Mnesia : Exhibition'
+officialCover: 'images/games/kid-a-mnesia/official-cover.png'
+developer:
+  name: '[namethemachine] x Arbitrarily Good Productions'
+  website: https://kida-mnesia.com/
+parutionDate: '2021-11-18'
+
+# Play info
+device: PS5
+score: 90
+sealOfApproval: true
+playedAt: '2021-12-18'
+
+# Screens
+cover: 'images/games/kid-a-mnesia/20211218143722.jpg'
+banner: 'images/games/kid-a-mnesia/20211218143722.jpg'
+screens:
+  - { path: 'images/games/kid-a-mnesia/20211218143722.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218145136.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218155202.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218145212.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218145240.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218145055.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218144400.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218145527.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218151126.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218151453.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218152205.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218152253.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218152625.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218152841.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218152929.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218154838.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218153554.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218153606.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218153738.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218153843.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218154208.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218154235.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218154042.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218154415.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218154502.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218154527.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218154625.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218154715.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218155651.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218163733.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218155824.jpg' }
+  - { path: 'images/games/kid-a-mnesia/20211218152017.jpg' }
+
+# Other
+soundtrack: '3-Xds3LR5fM'
+
+# Publication
+publishDate: '2021-12-18'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+metaTitle: Kid A Mnesia Exhibition | Radiohead
+metaDescription: An upside-down digital/analogue universe created from original artwork and recordings to commemorate the coming of age of Radiohead’s Kid A and Amnesiac.
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/kid-a-mnesia/20211218143743.jpg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+twitterImage: 'images/games/kid-a-mnesia/20211218143743.jpg'
