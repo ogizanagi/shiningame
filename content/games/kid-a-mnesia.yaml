@@ -14,7 +14,7 @@ playedAt: '2021-12-18'
 
 # Screens
 cover: 'images/games/kid-a-mnesia/20211218143722.jpg'
-banner: 'images/games/kid-a-mnesia/20211218143722.jpg'
+banner: 'images/games/kid-a-mnesia/20211218152253.jpg'
 screens:
   - { path: 'images/games/kid-a-mnesia/20211218143722.jpg' }
   - { path: 'images/games/kid-a-mnesia/20211218145136.jpg' }
