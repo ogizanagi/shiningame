@@ -56,6 +56,8 @@ build.content:
 ## Build static site without resizing images, for moar speed
 build.content-without-images: export APP_ENV = prod
 build.content-without-images: export GLIDE_PRE_GENERATE_CACHE = 0
+build.content-without-images: export BLUR_HASH = 0
+build.content-without-images: export AMBIANT_LIGHT = 0
 build.content-without-images:
 	symfony console cache:clear
 	ulimit -S -n 2048 && symfony console stenope:build
