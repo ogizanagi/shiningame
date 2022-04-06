@@ -58,7 +58,7 @@ jobs:
           echo "::endgroup::"
 
           echo "::group::npm install"
-            npm install --color=always --no-progress
+            npm install --color=always --no-progress --no-audit
           echo "::endgroup::"
 
       - name: 'Warmup'
