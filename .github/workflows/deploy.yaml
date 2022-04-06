@@ -45,6 +45,12 @@ jobs:
           path: public/resized
           key: resized-images-${{ secrets.CACHE_VERSION }}
 
+      - name: 'Cache blurhash images'
+        uses: actions/cache@v2
+        with:
+          path: var/cache/pools/app
+          key: resized-blurhash-${{ secrets.CACHE_VERSION }}
+
       - name: 'Cache NPM dependencies'
         uses: actions/cache@v2
         with:

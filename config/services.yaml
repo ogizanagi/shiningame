@@ -35,3 +35,8 @@ services:
     App\Controller\:
         resource: '../src/Controller/'
         tags: ['controller.service_arguments']
+
+    App\Bridge\BlurHash\CachedBlurHash:
+        decorates: lazy_image.blur_hash
+        bind:
+            $cache: '@blurhash.cache'

@@ -47,6 +47,12 @@ jobs:
           path: public/resized
           key: resized-images-tests-${{ secrets.CACHE_VERSION }}
 
+      - name: 'Cache blurhash images'
+        uses: actions/cache@v2
+        with:
+          path: var/cache/pools/app
+          key: resized-blurhash-tests-${{ secrets.CACHE_VERSION }}
+
       - name: 'Install dependencies'
         id: deps
         run: |

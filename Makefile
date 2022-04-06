@@ -30,13 +30,17 @@ serve.php:
 serve.assets:
 	npx encore dev-server
 
-## Dev - Clear build directory
+## Clear - Clear build directory
 clear.build:
 	rm -rf build public/build
 
-## Dev - Clear resized images cache
+## Clear - Clear resized images cache
 clear.images:
 	rm -rf public/resized
+
+## Clear - Clear blurhash cache
+clear.blurhash:
+	symfony console cache:pool:clear blurhash.cache
 
 #########
 # Build #
