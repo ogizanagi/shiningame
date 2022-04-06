@@ -21,28 +21,27 @@
         "fix": "eslint assets/js --ext .js,.json --fix"
     },
     "engines": {
-        "node": ">=12"
+        "node": ">=16",
+        "npm": ">=7"
     },
     "devDependencies": {
         "@symfony/stimulus-bridge": "^2.0.2",
         "@symfony/ux-lazy-image": "file:vendor/symfony/ux-lazy-image/Resources/assets",
-        "@symfony/webpack-encore": "^1.1.2",
+        "@symfony/webpack-encore": "^1.8",
         "@tailwindcss/postcss7-compat": "^2.1.0",
         "autoprefixer": "^9.8.6",
         "babel-eslint": "^10.1.0",
-        "chokidar": "^3.5.1",
         "core-js": "^3.10.1",
         "eslint": "^7.24.0",
         "eslint-plugin-json": "^2.1.2",
         "file-loader": "^6.2.0",
-        "node-sass": "^4.14.1",
         "postcss": "^7.0.35",
         "postcss-loader": "^3.0.0",
         "regenerator-runtime": "^0.13.2",
+        "sass": "^1.49.11",
         "sass-loader": "^8.0.0",
         "stimulus": "^2.0.0",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0",
-        "webpack-dev-server": "^4.0.0-beta.2",
         "webpack-notifier": "^1.13.0"
     }
 }

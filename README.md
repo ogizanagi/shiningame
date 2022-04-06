@@ -2,8 +2,8 @@
 
 ## Prerequisite
 
-- Node 12+
-- PHP 8.0+
+- Node 16+
+- PHP 8.1+
 - Symfony CLI install
 
 ## Setup
@@ -14,18 +14,18 @@ Install the dependencies with
 
 ## Start the server
 
-    make start
-
-The Symfony CLI exposes you the URL at which the site is available.
+    make serve
 
 ## Build assets
 
-    make build
+    make build.assets
 
-### Start asset watcher
+## Build content
 
-    make watch
+    make build.content
 
-### Start Webpack Dev Server (with HMR)
+## Build static
 
-    make dev
+Build the whole static site from source, with assets:
+
+    make build.static

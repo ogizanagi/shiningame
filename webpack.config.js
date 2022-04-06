@@ -61,21 +61,12 @@ Encore
   })
 
   .configureDevServerOptions(options => {
-    // Watch Twig files to force reload the browser on changes:
-
-    // Supposed to work as of https://github.com/webpack/webpack-dev-server/pull/3136, but does not:
-    // options.watchFiles = [path.join(__dirname, '/templates/**/*.twig')]
-
-    options.onBeforeSetupMiddleware = (devServer) => {
-      const files = [
-        path.resolve(__dirname, 'templates/**/*.html.twig'),
-        path.resolve(__dirname, 'content/**/*.yaml'),
-      ]
-
-      chokidar.watch(files).on('all', () => {
-        devServer.sockWrite(devServer.sockets, 'content-changed')
-      })
-    }
+    // Watch Twig & yaml files to force reload the browser on changes:
+    options.liveReload = true;
+    options.watchFiles = [
+      'templates/**/*.twig',
+      'content/**/*.yaml',
+    ];
   })
 
   // enables Sass/SCSS support

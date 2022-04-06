@@ -1,0 +1,16 @@
+html {
+  @apply
+  bg-gray-900
+  overscroll-y-none
+  min-h-screen
+  ;
+
+  min-height: stretch;
+  scroll-behavior: smooth;
+
+  background-image: url('../../images/backgrounds/asfalt-dark.png');
+}
+
+body {
+  min-height: stretch;
+}
