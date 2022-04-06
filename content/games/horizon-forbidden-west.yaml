@@ -1,0 +1,81 @@
+# Game info
+title: 'Horizon : Forbidden West'
+officialCover: 'images/games/horizon-forbidden-west/official-cover.png'
+developer:
+  name: Guerrilla Games
+  website: https://www.guerrilla-games.com/
+parutionDate: '2022-02-18'
+
+# Play info
+device: PS5
+score: 90
+sealOfApproval: true
+playedAt: '2022-03-27'
+
+# Screens
+cover: 'images/games/horizon-forbidden-west/20220220115344.jpg'
+banner: 'images/games/horizon-forbidden-west/20220324201033.jpg'
+screens:
+  - { path: 'images/games/horizon-forbidden-west/20220220115344.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220220130134.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220224204655.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220225221211.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220225222646.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220227141016.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220306195218.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220306204259.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220306205809.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220307194749.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220312175555.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220312180106.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220313103300.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220313163551.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220313184107.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220314200743.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220315221552.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220319151338.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220319155128.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220320145034.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220320154727.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220320160205.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220320160426.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220320165856.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220320171605.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220320181313.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220324200530.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220320191649.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220320193923.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220323194546.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220324201033.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220327223346.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220328001644.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220328195438.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220329201828.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220329202340.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220329205126.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220330153151.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220330154532.jpg' }
+  - { path: 'images/games/horizon-forbidden-west/20220320183838.jpg' }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2022-04-06'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/horizon-forbidden-west/social-cover.jpg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+twitterImage: 'images/games/horizon-forbidden-west/social-cover.jpg'
