@@ -23,7 +23,7 @@ class GameController extends AbstractController
     #[Route(name: 'games')]
     public function index(): Response
     {
-        $games = $this->manager->getContents(Game::class, ['publishDate' => false]);
+        $games = $this->manager->getContents(Game::class, ['publishDate' => false], ['enabled' => true]);
 
         return $this->render('games/list.html.twig', [
             'games' => $games,
@@ -33,6 +33,10 @@ class GameController extends AbstractController
     #[Route('/game/{game<.+>}', name: 'game')]
     public function show(Game $game): Response
     {
+        if (!$game->enabled) {
+            throw $this->createNotFoundException('This page is disabled');
+        }
+
         return $this->render('games/show.html.twig', [
             'game' => $game,
         ])->setLastModified($game->lastModified);
