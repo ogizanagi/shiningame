@@ -1,5 +1,5 @@
 {
-  "build/app.css": "/build/app.4057ec37.css",
+  "build/app.css": "/build/app.79bbbdf3.css",
   "build/app.js": "/build/app.89cc8306.js",
   "build/runtime.js": "/build/runtime.67946521.js",
   "build/272.c99c4992.js": "/build/272.c99c4992.js",
@@ -18,9 +18,9 @@
   "build/images/asfalt-dark.png": "/build/images/asfalt-dark.12fc1a7a.png",
   "build/images/backgrounds/asfalt-dark.png": "/build/images/backgrounds/asfalt-dark.12fc1a7a.png",
   "build/fonts/boldfinger.woff": "/build/fonts/boldfinger.927c11c1.woff",
-  "build/images/icomoon.svg": "/build/images/icomoon.e223a4c2.svg",
+  "build/images/icomoon.svg?63lfy7": "/build/images/icomoon.e223a4c2.svg",
   "build/fonts/boldfinger.woff2": "/build/fonts/boldfinger.9fc5dbc1.woff2",
-  "build/fonts/icomoon.eot": "/build/fonts/icomoon.aedb52b3.eot",
-  "build/fonts/icomoon.woff": "/build/fonts/icomoon.3a942bdf.woff",
-  "build/fonts/icomoon.ttf": "/build/fonts/icomoon.761ecaf1.ttf"
+  "build/fonts/icomoon.eot?63lfy7": "/build/fonts/icomoon.aedb52b3.eot",
+  "build/fonts/icomoon.woff?63lfy7": "/build/fonts/icomoon.3a942bdf.woff",
+  "build/fonts/icomoon.ttf?63lfy7": "/build/fonts/icomoon.761ecaf1.ttf"
 }
