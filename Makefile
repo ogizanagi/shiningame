@@ -9,8 +9,12 @@ include ./.make/help.mk
 ###########
 
 ## Install dependencies
-install:
+install: install.composer install.npm
+
+install.composer:
 	symfony composer install
+
+install.npm:
 	npm install
 
 update.composer:
