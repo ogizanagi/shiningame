@@ -1,0 +1,59 @@
+# Game info
+title: 'Stray'
+officialCover: 'images/games/stray/official-cover.jpeg'
+developer:
+  name: BlueTwelve Studio
+  website: https://stray.game/
+parutionDate: '2022-07-19'
+
+# Play info
+device: PS5
+score: 95
+sealOfApproval: true
+playedAt: '2022-07-19'
+
+# Screens
+cover: 'images/games/stray/20220723205600.jpg'
+banner: 'images/games/stray/20220723202942.jpg'
+screens:
+  - { path: 'images/games/stray/20220719193937.jpg' }
+  - { path: 'images/games/stray/20220719194008.jpg' }
+  - { path: 'images/games/stray/20220719195524.jpg' }
+  - { path: 'images/games/stray/20220719201832.jpg' }
+  - { path: 'images/games/stray/20220719205249.jpg' }
+  - { path: 'images/games/stray/20220723124400.jpg' }
+  - { path: 'images/games/stray/20220723135625.jpg' }
+  - { path: 'images/games/stray/20220723140206.jpg' }
+  - { path: 'images/games/stray/20220723193108.jpg' }
+  - { path: 'images/games/stray/20220723201749.jpg' }
+  - { path: 'images/games/stray/20220723202508.jpg' }
+  - { path: 'images/games/stray/20220723202942.jpg' }
+  - { path: 'images/games/stray/20220723205600.jpg' }
+  - { path: 'images/games/stray/20220725151024.jpg' }
+  - { path: 'images/games/stray/20220725151200.jpg' }
+  - { path: 'images/games/stray/20220725151351.jpg' }
+  - { path: 'images/games/stray/20220725154004.jpg' }
+  - { path: 'images/games/stray/20220725154625.jpg' }
+
+# Other
+soundtrack: 2NrsSgS1UcY
+
+# Publication
+publishDate: '2022-07-25'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/stray/social-cover.jpeg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+twitterImage: 'images/games/stray/social-cover.jpeg'
