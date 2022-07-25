@@ -13,6 +13,12 @@ install:
 	symfony composer install
 	npm install
 
+update.composer:
+	symfony composer update
+
+update.npm:
+	npm update
+
 ###############
 # Development #
 ###############

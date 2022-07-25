@@ -36,10 +36,10 @@
         "eslint-plugin-json": "^2.1.2",
         "file-loader": "^6.2.0",
         "postcss": "^7.0.35",
-        "postcss-loader": "^3.0.0",
+        "postcss-loader": "^6.2.1",
         "regenerator-runtime": "^0.13.2",
         "sass": "^1.49.11",
-        "sass-loader": "^8.0.0",
+        "sass-loader": "^12.6.0",
         "stimulus": "^2.0.0",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0",
         "webpack-notifier": "^1.13.0"
