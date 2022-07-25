@@ -1,0 +1,48 @@
+# Game info
+title: 'the-last-guardian'
+officialCover: 'images/games/the-last-guardian/official-cover.png'
+developer:
+  name: Team Ico
+  website: http://www.gendesign.co.jp/
+parutionDate: '2016-12-06'
+
+# Play info
+device: PS4
+score: 75
+sealOfApproval: false
+playedAt: '2022-01-10'
+
+# Screens
+cover: 'images/games/the-last-guardian/20220117235252.jpg'
+banner: 'images/games/the-last-guardian/20220112221957.jpg'
+screens:
+  - { path: 'images/games/the-last-guardian/20220110220250.jpg' }
+  - { path: 'images/games/the-last-guardian/20220112221835.jpg' }
+  - { path: 'images/games/the-last-guardian/20220112221957.jpg' }
+  - { path: 'images/games/the-last-guardian/20220117231917.jpg' }
+  - { path: 'images/games/the-last-guardian/20220117234100.jpg' }
+  - { path: 'images/games/the-last-guardian/20220117235252.jpg' }
+  - { path: 'images/games/the-last-guardian/20220118220029.jpg' }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2022-01-20'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/the-last-guardian/social-cover.jpg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+twitterImage: 'images/games/the-last-guardian/social-cover.jpg'
