@@ -54,7 +54,7 @@
       w-screen
       bg-no-repeat
       bg-center
-      bg-fixed
+      md:bg-fixed
       bg-cover
     ;
 
@@ -65,23 +65,25 @@
       @apply
         flex
         justify-center
-        items-center
+        items-end
+        md:items-center
         h-full
       ;
 
       h2 {
         @apply
-          text-white
+          drop-shadow-md shadow-black
+          text-white text-opacity-95
           text-4xl lg:text-7xl
           text-center
           backdrop-filter backdrop-blur
-          p-8
-          m-10
+          p-3 md:p-8
+          m-3 md:m-10
           bg-white bg-opacity-25
-          rounded-3xl
-          transform hover:scale-125
+          rounded-md md:rounded-3xl
+          transform md:hover:scale-105
           transform-gpu
-          transition-all duration-500
+          transition-all duration-300
         ;
 
         font-family: boldfinger;
