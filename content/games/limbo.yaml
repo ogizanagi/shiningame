@@ -1,0 +1,47 @@
+# Game info
+title: 'Limbo'
+officialCover: 'images/games/limbo/official-cover.png'
+developer:
+  name: Playdead
+  website: https://playdead.com/
+parutionDate: '2010-06-21'
+
+# Play info
+device: Nintendo Switch
+score: 70
+sealOfApproval: false
+playedAt: '2022-07-19'
+
+# Screens
+cover: 'images/games/limbo/2022071417275500.jpg'
+banner: 'images/games/limbo/2022071417275500.jpg'
+screens:
+  - { path: 'images/games/limbo/2022071416463000.jpg' }
+  - { path: 'images/games/limbo/2022071416483100.jpg' }
+  - { path: 'images/games/limbo/2022071417013000.jpg' }
+  - { path: 'images/games/limbo/2022071417275500.jpg' }
+  - { path: 'images/games/limbo/2022071417323500.jpg' }
+  - { path: 'images/games/limbo/2022071418065500.jpg' }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2022-07-26'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/limbo/social-cover.jpeg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+twitterImage: 'images/games/limbo/social-cover.jpg'
