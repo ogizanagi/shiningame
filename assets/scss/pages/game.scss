@@ -2,11 +2,11 @@
   @apply
     w-screen
     overflow-x-hidden
-    snap-y snap-mandatory md:snap-proximity
+    snap-y snap-proximity
   ;
 
   body {
-    @apply snap-mandatory md:snap-proximity;
+    @apply snap-proximity;
   }
 
   main > header {
@@ -195,7 +195,7 @@
         last:mb-5
         max-w-full
         overflow-hidden
-        snap-start snap-always
+        snap-start snap-always snap-mandatory md:snap-proximity
       ;
 
       @media (min-aspect-ratio: 1/3) and (orientation: portrait ) {
