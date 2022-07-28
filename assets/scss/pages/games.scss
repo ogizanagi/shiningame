@@ -2,16 +2,16 @@
   @apply
     w-screen
     overflow-x-hidden
+    snap-y
+    snap-mandatory md:snap-proximity
   ;
 
-  scroll-snap-type: y proximity;
-
   body {
-    scroll-snap-type: y proximity;
+    @apply snap-mandatory md:snap-proximity;
   }
 
   nav {
-    scroll-snap-align: start;
+    @apply snap-start;
   }
 
   nav header {
@@ -56,10 +56,8 @@
       bg-center
       md:bg-fixed
       bg-cover
+      snap-start snap-always
     ;
-
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
 
     header {
       @apply
@@ -92,6 +90,6 @@
   }
 
   footer {
-    scroll-snap-align: start;
+    @apply snap-start;
   }
 }
