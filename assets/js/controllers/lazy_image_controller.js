@@ -1,6 +1,6 @@
 'use strict';
 
-import { Controller } from 'stimulus';
+import { Controller } from '@hotwired/stimulus';
 
 /**
  * Same as original Symfony UX controller, but handling srcSet attributes.
@@ -19,7 +19,7 @@ export default class extends Controller {
     }
 
     const hdSrc = this.element.getAttribute('data-hd-src');
-    const hdSrcSet = this.element.getAttribute('data-hd-srcset');
+    const srcSet = this.element.getAttribute('data-hd-srcset');
 
     const interval = setInterval(() => {
       if (!this.constructor.ready && !this.constructor.done.includes(hdSrc)) {
@@ -30,12 +30,12 @@ export default class extends Controller {
       clearInterval(interval);
       this.constructor.ready = false;
 
-      const hd = new Image();
+      const image = new Image();
 
-      hd.addEventListener('load', () => {
+      image.addEventListener('load', () => {
         this.element.src = hdSrc;
-        if (hdSrcSet) {
-          this.element.srcset = hdSrcSet;
+        if (srcSet) {
+          this.element.srcset = srcSet;
         }
 
         // Remove the tmp width attribute asked
@@ -43,26 +43,23 @@ export default class extends Controller {
           delete this.element.removeAttribute('width');
         }
 
-        this._dispatchEvent('lazy-image:ready', { hd });
+        this._dispatchEvent('lazy-image:ready', { image });
 
         // Let the next image load:
         this.constructor.ready = true;
         this.constructor.done.push(hdSrc);
       });
 
-      hd.src = hdSrc;
-      if (hdSrcSet) {
-        hd.srcset = hdSrcSet;
+      image.src = hdSrc;
+      if (srcSet) {
+        image.srcset = srcSet;
       }
 
-      this._dispatchEvent('lazy-image:connect', { hd });
+      this._dispatchEvent('lazy-image:connect', { image });
     }, 50);
   }
 
-  _dispatchEvent(name, payload = null, canBubble = false, cancelable = false) {
-    const userEvent = document.createEvent('CustomEvent');
-    userEvent.initCustomEvent(name, canBubble, cancelable, payload);
-
-    this.element.dispatchEvent(userEvent);
+  _dispatchEvent(name, payload = null) {
+    this.element.dispatchEvent(new CustomEvent(name, { detail: payload }));
   }
 }

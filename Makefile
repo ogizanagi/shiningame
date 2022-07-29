@@ -126,7 +126,7 @@ lint.twig@integration:
 	symfony console lint:twig templates --show-deprecations --ansi --no-interaction
 
 lint.yaml@integration:
-	symfony console lint:yaml config translations content --parse-tags --ansi --no-interaction
+	symfony console lint:yaml config content --parse-tags --ansi --no-interaction
 
 lint.phpstan: export APP_ENV = test
 lint.phpstan:
