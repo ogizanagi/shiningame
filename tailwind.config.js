@@ -1,8 +1,5 @@
 module.exports = {
-  purge: {
-    content: ["./templates/**/*.html.twig"],
-  },
-  darkMode: false,
+  content: ["./templates/**/*.html.twig"],
   theme: {
     extend: {
       height: {
