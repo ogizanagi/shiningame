@@ -1,0 +1,59 @@
+# Game info
+title: Inside
+officialCover: 'images/games/inside/official-cover.png'
+developer:
+  name: Playdead
+  website: https://playdead.com/
+parutionDate: '2016-06-29'
+
+# Play info
+device: Nintendo Switch
+score: 85
+sealOfApproval: true
+playedAt: '2022-07-28'
+
+# Screens
+cover: 'images/games/inside/2022072822213400.jpg'
+banner: 'images/games/inside/2022072817101900.jpg'
+screens:
+  - { path: 'images/games/inside/2022072817101900.jpg' }
+  - { path: 'images/games/inside/2022072817193700.jpg' }
+  - { path: 'images/games/inside/2022072817503400.jpg' }
+  - { path: 'images/games/inside/2022072817561400.jpg' }
+  - { path: 'images/games/inside/2022072817572900.jpg' }
+  - { path: 'images/games/inside/2022072818021100.jpg' }
+  - { path: 'images/games/inside/2022072818070400.jpg' }
+  - { path: 'images/games/inside/2022072818155300.jpg' }
+  - { path: 'images/games/inside/2022072821495200.jpg' }
+  - { path: 'images/games/inside/2022072822093300.jpg' }
+  - { path: 'images/games/inside/2022072822172100.jpg' }
+  - { path: 'images/games/inside/2022072822200900.jpg' }
+  - { path: 'images/games/inside/2022072822213400.jpg' }
+  - { path: 'images/games/inside/2022072822245000.jpg' }
+  - { path: 'images/games/inside/2022072822261800.jpg' }
+  - { path: 'images/games/inside/2022072911161200.jpg' }
+  - { path: 'images/games/inside/2022072911214400.jpg' }
+  - { path: 'images/games/inside/2022072911515400.jpg' }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2022-07-29'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/inside/social-cover.jpg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+twitterImage: 'images/games/inside/social-cover.jpg'
