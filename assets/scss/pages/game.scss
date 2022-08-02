@@ -153,8 +153,11 @@
 
       li {
         @apply
-        overflow-hidden
-        snap-start
+          overflow-hidden
+          snap-start
+          items-center
+          inline-grid
+          bg-black
         ;
 
         height: fit-content;
@@ -169,7 +172,6 @@
           ;
 
           width: 320px;
-          height: 179px;
 
           &.spoiler {
             @apply
