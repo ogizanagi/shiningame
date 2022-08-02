@@ -67,6 +67,8 @@
         md:items-center
         h-full
       ;
+        
+      padding-bottom: env(safe-area-inset-bottom);
 
       h2 {
         @apply
