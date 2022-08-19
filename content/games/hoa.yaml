@@ -1,0 +1,69 @@
+# Game info
+title: Hoa
+officialCover: 'images/games/hoa/official-cover.png'
+developer:
+  name: Skrollcat Studio
+  website: https://www.hoathegame.com/
+parutionDate: '2021-08-24'
+
+# Play info
+device: Nintendo Switch
+score: 75
+sealOfApproval: false
+playedAt: '2022-08-14'
+
+# Screens
+cover: 'images/games/hoa/2022081512015100.jpg'
+banner: 'images/games/hoa/2022081512013000.jpg'
+screens:
+  - { path: 'images/games/hoa/2022081414241400.jpg' }
+  - { path: 'images/games/hoa/2022081414262100.jpg' }
+  - { path: 'images/games/hoa/2022081414285900.jpg' }
+  - { path: 'images/games/hoa/2022081415391300.jpg' }
+  - { path: 'images/games/hoa/2022081415472000.jpg' }
+  - { path: 'images/games/hoa/2022081415492200.jpg' }
+  - { path: 'images/games/hoa/2022081415495500.jpg' }
+  - { path: 'images/games/hoa/2022081415590400.jpg' }
+  - { path: 'images/games/hoa/2022081510511200.jpg' }
+  - { path: 'images/games/hoa/2022081510542400.jpg' }
+  - { path: 'images/games/hoa/2022081510574200.jpg' }
+  - { path: 'images/games/hoa/2022081511065000.jpg' }
+  - { path: 'images/games/hoa/2022081511083100.jpg' }
+  - { path: 'images/games/hoa/2022081511141300.jpg' }
+  - { path: 'images/games/hoa/2022081511212300.jpg' }
+  - { path: 'images/games/hoa/2022081511441900.jpg' }
+  - { path: 'images/games/hoa/2022081511525900.jpg' }
+  - { path: 'images/games/hoa/2022081511531300.jpg' }
+  - { path: 'images/games/hoa/2022081512002800.jpg' }
+  - { path: 'images/games/hoa/2022081512011800.jpg' }
+  - { path: 'images/games/hoa/2022081512012600.jpg' }
+  - { path: 'images/games/hoa/2022081512013000.jpg' }
+  - { path: 'images/games/hoa/2022081512015100.jpg' }
+  - { path: 'images/games/hoa/2022081512020000.jpg' }
+  - { path: 'images/games/hoa/2022081512031200.jpg' }
+  - { path: 'images/games/hoa/2022081512035300.jpg' }
+  - { path: 'images/games/hoa/2022081512044500.jpg' }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2022-08-19'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/hoa/social-cover.png'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+#twitterImage: ~
+twitterImage: 'images/games/hoa/social-cover.png'
