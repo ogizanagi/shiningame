@@ -31,7 +31,7 @@
                         document.querySelector('html').classList.remove('no-js');
         </script>
 
-                    <link rel="stylesheet" href="/build/app.f851a839.css">
+                    <link rel="stylesheet" href="/build/app.554d3532.css">
             </head>
     <body>
             <main>
@@ -54,7 +54,7 @@
         url('/resized/images/games/stray/20220723202942.jpg/f89618812599033dd7a8d181d0ede490.jpg') 2x
     );;"></div>
 
-            <nav class="main">
+            <nav class="main navbar-items navbar-items--left">
                 <a href="/" class="item">
                     <i class="icon icon-arrow-left2"></i> Back to games
                 </a>
@@ -62,9 +62,22 @@
 
             <h1 class="game-title">Stray</h1>
 
-            <nav class="secondary">
+            <nav
+                class="secondary navbar-items navbar-items--right"
+                data-controller="affix-navbar"
+            >
                                 <span class="item game-device" title="Played on PS5">PS5</span>
-                <button type="button" class="item btn-ambiant-light-toggle animate-pulse" data-controller="ambiant-light" title="Ambiant lights mode"><i class="icon icon-ambiant-light-toggle"></i></button><button type="button" class="item btn-fullscreen-toggle" data-controller="fullscreen" title="Fullscreen"><i class="icon icon-fullscreen-toggle"></i></button>            </nav>
+                <button
+                        title="Ambiant lights mode"
+                        type="button"
+                        class="item btn-ambiant-light-toggle animate-pulse"
+                        data-controller="ambiant-light"
+                    ><i class="icon icon-ambiant-light-toggle"></i></button><button
+                        title="Fullscreen"
+                        type="button"
+                        class="item btn-fullscreen-toggle"
+                        data-controller="fullscreen"
+                    ><i class="icon icon-fullscreen-toggle"></i></button>            </nav>
 
             <a class="game-dev"
                                     href="https://stray.game/"
@@ -859,12 +872,14 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/about">About</a>
+                        <a href="/about">
+                            <i class="icon icon-question"></i> About
+                        </a>
                     </li>
                 </ul>
             </nav>
         </footer>
 
-                    <script src="/build/runtime.67946521.js" defer></script><script src="/build/289.cabff348.js" defer></script><script src="/build/app.72c00d2c.js" defer></script>
+                    <script src="/build/runtime.67946521.js" defer></script><script src="/build/289.cabff348.js" defer></script><script src="/build/app.e5fc27c7.js" defer></script>
             </body>
 </html>
