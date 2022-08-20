@@ -16,55 +16,14 @@
       snap-start
     ;
     min-height: 65vh;
-
-    nav.main {
-      @apply
-        absolute top-4 left-3
-      ;
-
-      .item {
-        @apply mr-1;
-      }
-    }
-
-    nav {
-      @apply flex;
-
-      .item {
-        @apply
-          text-white text-base
-          px-3 py-2
-          backdrop-filter backdrop-blur-sm
-          bg-gray-400 bg-opacity-30
-          opacity-70 hover:opacity-90
-          transition-all
-          rounded-md
-        ;
-      }
-
-      a.item,
-      button.item {
-        @apply hover:opacity-90;
-      }
-    }
-
-    nav.secondary {
-      @apply
-        absolute z-20 top-4 right-3 flex
-      ;
-
-      .item {
-        @apply ml-1;
-      }
-    }
   }
 
   .game-banner {
     @apply
-    absolute z-0
-    w-full
-    filter blur-md
-    bg-cover bg-no-repeat bg-fixed
+      absolute z-0
+      w-full
+      filter blur-md
+      bg-cover bg-no-repeat bg-fixed
     ;
 
     min-height: 65vh;
@@ -73,11 +32,11 @@
 
   .game-title {
     @apply
-    absolute z-30 top-1/3
-    w-full
-    text-6xl md:text-7xl text-white text-center
-    opacity-40
-    px-2
+      absolute z-30 top-1/3
+      w-full
+      text-6xl md:text-7xl text-white text-center
+      opacity-40
+      px-2
     ;
 
     font-family: boldfinger;
@@ -85,17 +44,17 @@
 
   .game-dev {
     @apply
-    absolute z-10
-    bottom-2 sm:bottom-2 md:bottom-2 lg:bottom-1/4 xl:bottom-2
-    mb-0 sm:mb-0 md:mb-0 lg:mb-20 xl:mb-0
-    right-2
-    px-2
-    flex
-    flex-col
-    items-end
-    opacity-50
-    hover:opacity-100
-    transition-all
+      absolute z-10
+      bottom-2 sm:bottom-2 md:bottom-2 lg:bottom-1/4 xl:bottom-2
+      mb-0 sm:mb-0 md:mb-0 lg:mb-20 xl:mb-0
+      right-2
+      px-2
+      flex
+      flex-col
+      items-end
+      opacity-50
+      hover:opacity-100
+      transition-all
     ;
 
     span {

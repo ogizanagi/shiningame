@@ -1,0 +1,40 @@
+nav.navbar-items {
+  @apply absolute z-20 flex;
+
+  .item {
+    @apply
+      text-white text-base
+      px-3 py-2
+      backdrop-filter backdrop-blur-sm
+      bg-gray-400 bg-opacity-30
+      opacity-70
+      transition-all
+      rounded-md
+    ;
+  }
+
+  a.item,
+  button.item {
+    @apply hover:opacity-90;
+  }
+
+  &.navbar-items--fixed {
+    @apply fixed z-50;
+  }
+
+  &.navbar-items--right {
+    @apply top-4 right-3;
+
+    .item {
+      @apply ml-1 mr-0;
+    }
+  }
+
+  &.navbar-items--left {
+    @apply top-4 left-3;
+
+    .item {
+      @apply ml-0 mr-1;
+    }
+  }
+}

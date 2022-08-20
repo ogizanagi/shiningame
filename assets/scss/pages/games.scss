@@ -27,29 +27,7 @@
     }
   }
 
-  // TODO: extract as secondary nav component (same in game page, but absolute)
   nav.secondary {
-    @apply
-      fixed
-      z-50
-      top-4
-      right-3
-      flex
-    ;
-
-    .item {
-      @apply
-        text-white text-base
-        px-3 py-2
-        backdrop-filter backdrop-blur-sm
-        bg-gray-400 bg-opacity-30
-        opacity-70 hover:opacity-90
-        transition-all
-        rounded-md
-        ml-1
-      ;
-    }
-
     &.fullscreen .icon-fullscreen-toggle {
       @apply opacity-30 hover:opacity-90;
     }
