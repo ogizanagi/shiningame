@@ -13,9 +13,14 @@
     {{ include('layout/main_nav.html.twig') }}
 
     {% apply spaceless %}
-        <button type="button" class="item btn-fullscreen-toggle" {{ stimulus_controller('fullscreen') }}>
-            <i class="icon icon-fullscreen-toggle"></i>
-        </button>
+        <nav class="secondary">
+            <a href="{{ path('about') }}" class="item">
+                <i class="icon icon-question"></i>
+            </a>
+            <button type="button" class="item btn-fullscreen-toggle" {{ stimulus_controller('fullscreen') }}>
+                <i class="icon icon-fullscreen-toggle"></i>
+            </button>
+        </nav>
     {% endapply %}
 
     {% for game in games %}

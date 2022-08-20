@@ -10,11 +10,11 @@
     @apply snap-mandatory md:snap-proximity;
   }
 
-  nav {
+  nav.main-nav {
     @apply snap-start;
   }
 
-  nav header {
+  nav.main-nav header {
     h1 {
       @apply
         text-white text-center
@@ -27,24 +27,32 @@
     }
   }
 
-  .icon-fullscreen-toggle {
+  // TODO: extract as secondary nav component (same in game page, but absolute)
+  nav.secondary {
     @apply
       fixed
       z-50
-      top-3
+      top-4
       right-3
-      text-white text-base
-      px-3 py-2
-      backdrop-filter backdrop-blur-sm
-      bg-gray-400 bg-opacity-30
-      opacity-70 hover:opacity-90
-      transition-all
-      rounded-md
+      flex
     ;
-  }
 
-  &.fullscreen .icon-fullscreen-toggle {
-    @apply opacity-30 hover:opacity-90;
+    .item {
+      @apply
+        text-white text-base
+        px-3 py-2
+        backdrop-filter backdrop-blur-sm
+        bg-gray-400 bg-opacity-30
+        opacity-70 hover:opacity-90
+        transition-all
+        rounded-md
+        ml-1
+      ;
+    }
+
+    &.fullscreen .icon-fullscreen-toggle {
+      @apply opacity-30 hover:opacity-90;
+    }
   }
 
   article.game {
@@ -67,7 +75,7 @@
         md:items-center
         h-full
       ;
-        
+
       padding-bottom: env(safe-area-inset-bottom);
 
       h2 {
