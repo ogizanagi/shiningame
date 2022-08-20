@@ -22,7 +22,10 @@
 
             <h1 class="game-title">{{ game.title }}</h1>
 
-            <nav class="secondary navbar-items navbar-items--right">
+            <nav
+                class="secondary navbar-items navbar-items--right"
+                {{ stimulus_controller('affix-navbar') }}
+            >
                 {% apply spaceless %}
                     {% if game.tweetId %}
                         <a href="{{ external_url('twitter_like', { tweet_id: game.tweetId }) }}" class="item" target="_blank">
@@ -32,10 +35,20 @@
                 {% endapply %}
                 <span class="item game-device" title="Played on {{ game.device }}">{{ game.device }}</span>
                 {% apply spaceless %}
-                    <button type="button" class="item btn-ambiant-light-toggle animate-pulse" {{ stimulus_controller('ambiant-light') }} title="Ambiant lights mode">
+                    <button
+                        title="Ambiant lights mode"
+                        type="button"
+                        class="item btn-ambiant-light-toggle animate-pulse"
+                        {{ stimulus_controller('ambiant-light') }}
+                    >
                         <i class="icon icon-ambiant-light-toggle"></i>
                     </button>
-                    <button type="button" class="item btn-fullscreen-toggle" {{ stimulus_controller('fullscreen') }} title="Fullscreen">
+                    <button
+                        title="Fullscreen"
+                        type="button"
+                        class="item btn-fullscreen-toggle"
+                        {{ stimulus_controller('fullscreen') }}
+                    >
                         <i class="icon icon-fullscreen-toggle"></i>
                     </button>
                 {% endapply %}

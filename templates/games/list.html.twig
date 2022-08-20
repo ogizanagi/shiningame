@@ -14,10 +14,15 @@
 
     {% apply spaceless %}
         <nav class="secondary navbar-items navbar-items--fixed navbar-items--right">
-            <a href="{{ path('about') }}" class="item">
+            <a href="{{ path('about') }}" class="item" title="About">
                 <i class="icon icon-question"></i>
             </a>
-            <button type="button" class="item btn-fullscreen-toggle" {{ stimulus_controller('fullscreen') }}>
+            <button
+                type="button"
+                title="Fullscreen"
+                class="item btn-fullscreen-toggle"
+                {{ stimulus_controller('fullscreen') }}
+            >
                 <i class="icon icon-fullscreen-toggle"></i>
             </button>
         </nav>

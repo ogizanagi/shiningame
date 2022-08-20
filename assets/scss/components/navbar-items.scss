@@ -20,6 +20,8 @@ nav.navbar-items {
 
   &.navbar-items--fixed {
     @apply fixed z-50;
+    // Hide affixed items on small devices
+    @apply hidden lg:flex;
   }
 
   &.navbar-items--right {
