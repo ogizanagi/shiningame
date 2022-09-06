@@ -1,11 +1,4 @@
 .page.page_games {
-  @apply
-    w-screen
-    overflow-x-hidden
-    snap-y
-    snap-mandatory md:snap-proximity
-  ;
-
   & > .content {
     @apply snap-mandatory md:snap-proximity;
   }

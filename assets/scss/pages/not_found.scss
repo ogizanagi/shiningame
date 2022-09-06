@@ -1,13 +1,7 @@
 .page.page_not_found {
-  @apply
-    w-screen
-    overflow-x-hidden
-  ;
-
   & > .content {
     @apply
       flex flex-col
-      h-screen
     ;
   }
 }

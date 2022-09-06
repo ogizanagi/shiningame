@@ -8,8 +8,8 @@ export default class extends Controller {
     let affixed = false;
     const AFFIX_OFFSET = document.querySelector('.game-banner').offsetHeight;
 
-    document.querySelector('.page').addEventListener('scroll', () => {
-      const y = document.querySelector('.page').scrollTop;
+    window.document.addEventListener('scroll', () => {
+      const y = window.scrollY;
 
       if (affixed && y >= AFFIX_OFFSET) {
         return;

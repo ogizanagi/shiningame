@@ -1,10 +1,4 @@
 .page.page_game {
-  @apply
-    w-screen
-    overflow-x-hidden
-    snap-y snap-proximity
-  ;
-
   & > .content {
     @apply snap-proximity;
   }

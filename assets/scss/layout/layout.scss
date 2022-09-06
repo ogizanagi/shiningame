@@ -1,10 +1,8 @@
 html,
 body {
   @apply
-    h-screen
     bg-gray-900
-    overflow-hidden
-    overscroll-y-none
+    snap-y snap-proximity
   ;
 
   background-image: url('../../images/backgrounds/asfalt-dark.png');
@@ -12,13 +10,9 @@ body {
 
 .page {
   @apply
-    relative
-    overflow-y-auto
-    scroll-smooth
     h-screen
+    w-screen
+    relative
+    scroll-smooth
   ;
-}
-
-.content {
-  @apply scroll-smooth;
 }
