@@ -1,15 +1,17 @@
-.page_game {
+.page.page_game {
   @apply
     w-screen
     overflow-x-hidden
     snap-y snap-proximity
   ;
 
-  body {
+  & > .content {
     @apply snap-proximity;
   }
+}
 
-  main > header {
+.page_game main {
+  & > header {
     @apply
       relative
       w-full
@@ -89,12 +91,12 @@
 
     ul {
       @apply
-      grid grid-cols-3
-      gap-4
-      filter drop-shadow-lg
-      overflow-y-auto overscroll-none
-      py-10
-      snap-y snap-mandatory
+        grid grid-cols-3
+        gap-4
+        filter drop-shadow-lg
+        overflow-y-auto overscroll-none
+        py-10
+        snap-y snap-mandatory
       ;
 
       height: 360px;

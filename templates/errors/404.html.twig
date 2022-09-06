@@ -7,24 +7,22 @@
 {% block meta_description "Nothing shiny here | %s"|format(site.title) %}
 
 {% block layout %}
-    <main>
-        {{ include('layout/main_nav.html.twig') }}
+    {{ include('layout/main_nav.html.twig') }}
 
-        <section>
-            <h2 class="inline">
-                Error
-                <span>404</span>
-            </h2>
+    <section>
+        <h2 class="inline">
+            Error
+            <span>404</span>
+        </h2>
 
-            <p>Nothing shiny was found here</p>
+        <p>Nothing shiny was found here</p>
 
-            <nav class="actions">
-                <a href="{{ path('games') }}">
-                    <span>
-                        <i class="icon icon-arrow-left2"></i> Back to games
-                    </span>
-                </a>
-            </nav>
-        </section>
-    </main>
+        <nav class="actions">
+            <a href="{{ path('games') }}">
+                <span>
+                    <i class="icon icon-arrow-left2"></i> Back to games
+                </span>
+            </a>
+        </nav>
+    </section>
 {% endblock %}

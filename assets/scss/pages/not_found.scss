@@ -1,23 +1,23 @@
-.page_not_found {
+.page.page_not_found {
   @apply
     w-screen
     overflow-x-hidden
   ;
 
-  body {
+  & > .content {
     @apply
       flex flex-col
       h-screen
     ;
   }
+}
 
-  main {
-    @apply
-      container
-      mx-auto
-      flex-1
-    ;
-  }
+.page_not_found main {
+  @apply
+    container
+    mx-auto
+    flex-1
+  ;
 
   section {
     @apply

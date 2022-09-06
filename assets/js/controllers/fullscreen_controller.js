@@ -7,8 +7,8 @@ export default class extends Controller {
   initialize() {
     document.addEventListener('fullscreenchange', () => {
       document.fullscreenElement
-        ? document.documentElement.classList.add('fullscreen')
-        : document.documentElement.classList.remove('fullscreen')
+        ? document.querySelector('.page').classList.add('fullscreen')
+        : document.querySelector('.page').classList.remove('fullscreen')
       ;
     });
   }

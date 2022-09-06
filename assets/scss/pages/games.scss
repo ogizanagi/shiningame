@@ -1,4 +1,4 @@
-.page_games {
+.page.page_games {
   @apply
     w-screen
     overflow-x-hidden
@@ -6,10 +6,12 @@
     snap-mandatory md:snap-proximity
   ;
 
-  body {
+  & > .content {
     @apply snap-mandatory md:snap-proximity;
   }
+}
 
+.page_games main {
   nav.main-nav {
     @apply snap-start;
   }
@@ -42,7 +44,7 @@
       bg-center
       md:bg-fixed
       bg-cover
-      snap-start snap-always
+      snap-start
     ;
 
     header {

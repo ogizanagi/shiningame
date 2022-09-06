@@ -1,23 +1,23 @@
-.page_about {
+.page.page_about {
   @apply
     w-screen
     overflow-x-hidden
   ;
 
-  body {
+  & > .content {
     @apply
       flex flex-col
       h-screen
     ;
   }
+}
 
-  main {
-    @apply
-      container
-      mx-auto
-      flex-1
-    ;
-  }
+.page_about main {
+  @apply
+    container
+    mx-auto
+    flex-1
+  ;
 
   section.about-text {
     @apply
