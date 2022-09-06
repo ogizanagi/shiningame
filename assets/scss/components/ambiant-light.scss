@@ -1,11 +1,11 @@
-html:not(.ambiant) {
+.page:not(.ambiant) {
   .ambiant-bg {
     @apply hidden;
     background-image: none !important;
   }
 }
 
-html.ambiant {
+.page.ambiant {
   .ambiant-bg {
     @apply
     absolute

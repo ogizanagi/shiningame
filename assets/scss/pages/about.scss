@@ -1,18 +1,18 @@
-html:has(.page_about) {
+.page.page_about {
   @apply
     w-screen
     overflow-x-hidden
   ;
+
+  & > .content {
+    @apply
+      flex flex-col
+      h-screen
+    ;
+  }
 }
 
-body:has(.page_about) {
-  @apply
-    flex flex-col
-    h-screen
-  ;
-}
-
-main.page_about {
+.page_about main {
   @apply
     container
     mx-auto

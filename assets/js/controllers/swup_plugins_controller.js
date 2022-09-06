@@ -12,17 +12,19 @@ export default class extends Controller {
   }
 
   _onPreConnect(event) {
-    event.detail.options.plugins.push(new SwupScrollPlugin({
-      doScrollingRightAway: false,
-      animateScroll: {
-        betweenPages: false,
-      },
-    }));
-    event.detail.options.plugins.push(new SwupProgressPlugin({
-      transition: 300,
-      delay: 100,
-      initialValue: 0.25,
-      hideImmediately: true
-    }));
+    event.detail.options.plugins.push(
+      new SwupScrollPlugin({
+        doScrollingRightAway: false,
+        animateScroll: {
+          betweenPages: false,
+        },
+      }),
+      new SwupProgressPlugin({
+        transition: 300,
+        delay: 100,
+        initialValue: 0.25,
+        hideImmediately: true
+      }),
+    );
   }
 }

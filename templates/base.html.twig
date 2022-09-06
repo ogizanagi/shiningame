@@ -60,37 +60,41 @@
     <body {{ stimulus_controller({
         'swup_plugins': {},
         'symfony/ux-swup/swup': {
-            containers: ['#main', '#footer'],
+            containers: ['.page'],
             cache: true,
             debug: app.debug,
 
             linkSelector: 'a[href^="' ~ app.request.schemeAndHttpHost ~ '"]:not([data-no-swup]):not([target="_blank"]), a[href^="/"]:not([data-no-swup]):not([target="_blank"])'
         },
     }) }}>
-        <main id="main" class="{{ (pageClasses ?? [])|join(' ') }}">
-            {% block layout %}{% endblock %}
-        </main>
+        <div class="page {{ (pageClasses ?? [])|join(' ') }}">
+            <div class="content">
+                <main id="main">
+                    {% block layout %}{% endblock %}
+                </main>
 
-        <footer id="footer">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="{{ external_url('github', { accountId: site.social.github }) }}" target="_blank">
-                            <i class="icon icon-github"></i> Github
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ external_url('twitter_account', { accountId: site.social.twitter }) }}" target="_blank">
-                            <i class="icon icon-twitter"></i> Twitter
-                        </a>
-                    </li>
-                    <li>
-                        <a href="{{ path('about') }}">
-                            <i class="icon icon-question"></i> About
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </footer>
+                <footer id="footer">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="{{ external_url('github', { accountId: site.social.github }) }}" target="_blank">
+                                    <i class="icon icon-github"></i> Github
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ external_url('twitter_account', { accountId: site.social.twitter }) }}" target="_blank">
+                                    <i class="icon icon-twitter"></i> Twitter
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{ path('about') }}">
+                                    <i class="icon icon-question"></i> About
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </footer>
+            </div>
+        </div>
     </body>
 </html>

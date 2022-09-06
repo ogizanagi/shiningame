@@ -1,16 +1,16 @@
-html:has(.page_game) {
+.page.page_game {
   @apply
     w-screen
     overflow-x-hidden
     snap-y snap-proximity
   ;
+
+  & > .content {
+    @apply snap-proximity;
+  }
 }
 
-body:has(.page_game) {
-  @apply snap-proximity;
-}
-
-main.page_game {
+.page_game main {
   & > header {
     @apply
       relative
@@ -91,12 +91,12 @@ main.page_game {
 
     ul {
       @apply
-      grid grid-cols-3
-      gap-4
-      filter drop-shadow-lg
-      overflow-y-auto overscroll-none
-      py-10
-      snap-y snap-mandatory
+        grid grid-cols-3
+        gap-4
+        filter drop-shadow-lg
+        overflow-y-auto overscroll-none
+        py-10
+        snap-y snap-mandatory
       ;
 
       height: 360px;

@@ -1,18 +1,18 @@
-html:has(.page_not_found) {
+.page.page_not_found {
   @apply
     w-screen
     overflow-x-hidden
   ;
+
+  & > .content {
+    @apply
+      flex flex-col
+      h-screen
+    ;
+  }
 }
 
-body:has(.page_not_found) {
-  @apply
-    flex flex-col
-    h-screen
-  ;
-}
-
-main.page_not_found {
+.page_not_found main {
   @apply
     container
     mx-auto
