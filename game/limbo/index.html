@@ -31,7 +31,7 @@
                         document.querySelector('html').classList.remove('no-js');
         </script>
 
-                    <link rel="stylesheet" href="/build/app.d043ad2e.css">
+                    <link rel="stylesheet" href="/build/app.7df65db7.css">
         
                     <script src="/build/runtime.67946521.js" defer></script><script src="/build/972.e4394b0e.js" defer></script><script src="/build/app.e1c1a735.js" defer></script>
             </head>
@@ -58,7 +58,9 @@
         url('/resized/images/games/limbo/2022071417275500.jpg/521923b17d04cf40f2689bc1ad8631e6.jpg') 2x
     );;"></div>
 
-        <nav class="main navbar-items navbar-items--left">
+        <nav class="main navbar-items navbar-items--left"
+            data-controller="affix-navbar"
+        >
             <a href="/" class="item">
                 <i class="icon icon-arrow-left2"></i> Back to games
             </a>
@@ -73,8 +75,14 @@
             class="secondary navbar-items navbar-items--right"
             data-controller="affix-navbar"
         >
-                        <span class="item game-device" title="Played on Nintendo Switch">Nintendo Switch</span>
             <button
+                    onclick="window.scrollTo(0, 0)"
+                    type="button"
+                    class="item game-device"
+                    title="Played on Nintendo Switch"
+                >
+                    Nintendo Switch
+                </button><button
                     title="Ambiant lights mode"
                     type="button"
                     class="item btn-ambiant-light-toggle animate-pulse"
