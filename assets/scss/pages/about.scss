@@ -1,23 +1,23 @@
-.page_about {
+html:has(.page_about) {
   @apply
     w-screen
     overflow-x-hidden
   ;
+}
 
-  body {
-    @apply
-      flex flex-col
-      h-screen
-    ;
-  }
+body:has(.page_about) {
+  @apply
+    flex flex-col
+    h-screen
+  ;
+}
 
-  main {
-    @apply
-      container
-      mx-auto
-      flex-1
-    ;
-  }
+main.page_about {
+  @apply
+    container
+    mx-auto
+    flex-1
+  ;
 
   section.about-text {
     @apply

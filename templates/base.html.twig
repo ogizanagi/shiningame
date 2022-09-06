@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{% block meta_locale app.request.locale %}" class="no-js {{ (pageClasses ?? [])|join(' ') }}">
+<html lang="{% block meta_locale app.request.locale %}" class="no-js">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -52,11 +52,26 @@
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
         {% endblock %}
-    </head>
-    <body>
-        {% block layout %}{% endblock %}
 
-        <footer>
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </head>
+    <body {{ stimulus_controller({
+        'swup_plugins': {},
+        'symfony/ux-swup/swup': {
+            containers: ['#main', '#footer'],
+            cache: true,
+            debug: app.debug,
+
+            linkSelector: 'a[href^="' ~ app.request.schemeAndHttpHost ~ '"]:not([data-no-swup]):not([target="_blank"]), a[href^="/"]:not([data-no-swup]):not([target="_blank"])'
+        },
+    }) }}>
+        <main id="main" class="{{ (pageClasses ?? [])|join(' ') }}">
+            {% block layout %}{% endblock %}
+        </main>
+
+        <footer id="footer">
             <nav>
                 <ul>
                     <li>
@@ -77,9 +92,5 @@
                 </ul>
             </nav>
         </footer>
-
-        {% block javascripts %}
-            {{ encore_entry_script_tags('app') }}
-        {% endblock %}
     </body>
 </html>

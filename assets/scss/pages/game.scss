@@ -1,15 +1,17 @@
-.page_game {
+html:has(.page_game) {
   @apply
     w-screen
     overflow-x-hidden
     snap-y snap-proximity
   ;
+}
 
-  body {
-    @apply snap-proximity;
-  }
+body:has(.page_game) {
+  @apply snap-proximity;
+}
 
-  main > header {
+main.page_game {
+  & > header {
     @apply
       relative
       w-full

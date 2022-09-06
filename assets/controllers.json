@@ -5,6 +5,12 @@
                 "enabled": true,
                 "fetch": "eager"
             }
+        },
+        "@symfony/ux-swup": {
+            "swup": {
+                "enabled": true,
+                "fetch": "eager"
+            }
         }
     },
     "entrypoints": []
