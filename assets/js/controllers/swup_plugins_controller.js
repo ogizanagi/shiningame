@@ -21,7 +21,7 @@ export default class extends Controller {
       }),
       new SwupProgressPlugin({
         transition: 300,
-        delay: 100,
+        delay: 0,
         initialValue: 0.25,
         hideImmediately: true
       }),
