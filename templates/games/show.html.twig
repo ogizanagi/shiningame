@@ -13,7 +13,9 @@
     <header>
         <div class="game-banner" style="{{ macros.backgroundImageSrcset(game.banner, 'game_show_banner') }};"></div>
 
-        <nav class="main navbar-items navbar-items--left">
+        <nav class="main navbar-items navbar-items--left"
+            {{ stimulus_controller('affix-navbar') }}
+        >
             <a href="{{ path('games') }}" class="item">
                 <i class="icon icon-arrow-left2"></i> Back to games
             </a>
@@ -34,9 +36,16 @@
                         <i class="icon icon-heart"></i>
                     </a>
                 {% endif %}
-            {% endapply %}
-            <span class="item game-device" title="Played on {{ game.device }}">{{ game.device }}</span>
-            {% apply spaceless %}
+
+                <button
+                    onclick="window.scrollTo(0, 0)"
+                    type="button"
+                    class="item game-device"
+                    title="Played on {{ game.device }}"
+                >
+                    {{ game.device }}
+                </button>
+
                 <button
                     title="Ambiant lights mode"
                     type="button"
@@ -45,6 +54,7 @@
                 >
                     <i class="icon icon-ambiant-light-toggle"></i>
                 </button>
+
                 <button
                     title="Fullscreen"
                     type="button"
