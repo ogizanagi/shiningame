@@ -14,9 +14,9 @@ export default class extends Controller {
   _onPreConnect(event) {
     event.detail.options.plugins.push(
       new SwupScrollPlugin({
-        doScrollingRightAway: false,
+        doScrollingRightAway: true,
         animateScroll: {
-          betweenPages: false,
+          betweenPages: true,
         },
       }),
       new SwupProgressPlugin({
