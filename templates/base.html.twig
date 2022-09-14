@@ -57,14 +57,19 @@
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
     </head>
-    <body {{ stimulus_controller('swup_plugins')|stimulus_controller('symfony/ux-swup/swup', {
-        containers: ['.page'],
-        cache: true,
-        debug: app.debug,
-        animateHistoryBrowsing: true,
-        linkSelector: 'a[href^="' ~ app.request.schemeAndHttpHost ~ '"]:not([data-no-swup]):not([target="_blank"]), a[href^="/"]:not([data-no-swup]):not([target="_blank"])'
-    }) }}>
-        <div class="page {{ (pageClasses ?? [])|join(' ') }}">
+    <body
+        {{ stimulus_controller('swup_plugins')
+        | stimulus_controller('symfony/ux-swup/swup', {
+            cache: true,
+            debug: app.debug,
+            animateHistoryBrowsing: true,
+            linkSelector: [
+                'a[href^="' ~ app.request.schemeAndHttpHost ~ app.request.basePath ~ '"]',
+                'a[href^="/"]',
+            ]|map(s => s ~ ':not([data-no-swup]):not([target="_blank"])')|join(',')
+        }) }}
+    >
+        <div class="page {{ (pageClasses ?? [])|join(' ') }}" id="swup">
             <div class="content">
                 <main id="main">
                     {% block layout %}{% endblock %}
