@@ -7,7 +7,7 @@
 {% block meta_description (game.metaDescription ?? '"%s" is game developed by %s released on %s'|format(game.title, game.developer.name, game.parutionDate|date('F Y'))) ~ ' | Look at these screens extracted from the game' %}
 {% block twitter_card_type 'summary_large_image' %}
 {% block twitter_image absolute_url(asset((game.twitterImage ?? game.cover)|glide_image_preset('twitter_card_image'))) %}
-{% block og_image asset((game.ogImage ?? game.cover)|glide_image_preset('opengraph_image')) %}
+{% block og_image absolute_url(asset((game.ogImage ?? game.cover)|glide_image_preset('opengraph_image'))) %}
 
 {% block layout %}
     <header>
