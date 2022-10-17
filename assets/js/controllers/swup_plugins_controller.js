@@ -12,6 +12,18 @@ export default class extends Controller {
   }
 
   _onPreConnect(event) {
+    /**
+     * Circumvents an issue with Swup and scrolling to the URL anchor on page load.
+     */
+    setTimeout(() => {
+      if (location.hash) {
+        const element = document.getElementById(location.hash.slice(1));
+        if (element) {
+          window.scrollTo({ top: element.getBoundingClientRect().y });
+        }
+      }
+    }, 100);
+
     event.detail.options.plugins.push(
       new SwupScrollPlugin({
         doScrollingRightAway: true,
