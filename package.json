@@ -1,7 +1,7 @@
 {
     "name": "shiningame",
     "version": "1.0.0",
-    "description": "Shiny little extracts from enjoyable games, for lockdowned beings",
+    "description": "Shiny little extracts from enjoyable games",
     "license": "UNLICENSED",
     "private": true,
     "bugs": {

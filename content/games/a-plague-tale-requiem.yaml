@@ -1,0 +1,72 @@
+# Game info
+title: 'A Plague Tale : Requiem'
+officialCover: 'images/games/a-plague-tale-requiem/official-cover.jpeg'
+developer:
+  name: Asobo Studio
+  website: https://www.asobostudio.com
+parutionDate: '2022-10-18'
+
+# Play info
+device: PS5
+score: 95
+sealOfApproval: true
+playedAt: '2022-10-18'
+
+# Screens
+cover: 'images/games/a-plague-tale-requiem/20221019102557.jpg'
+banner: 'images/games/a-plague-tale-requiem/20221018200121.jpg'
+
+screens:
+  - { path: 'images/games/a-plague-tale-requiem/20221019102557.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221019111734.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221019112229.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221019185344.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221019194827.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221019200135.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221019215817.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221018201736.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221020115613.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221020120841.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221020142955.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221020143303.jpg', spoiler: true }
+  - { path: 'images/games/a-plague-tale-requiem/20221020143444.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221020144539.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221020150927.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021144312.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021150504.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021162626.jpg', spoiler: true }
+  - { path: 'images/games/a-plague-tale-requiem/20221021165026.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021165523.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021170355.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021170724.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021171301.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021184215.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021184935.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021192028.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021193048.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021193411.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021194423.jpg' }
+  - { path: 'images/games/a-plague-tale-requiem/20221021200536.jpg', spoiler: true }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2022-10-22'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/a-plague-tale-requiem/social-cover.jpg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+twitterImage: 'images/games/a-plague-tale-requiem/social-cover.jpg'

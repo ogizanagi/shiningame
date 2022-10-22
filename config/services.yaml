@@ -6,7 +6,7 @@
 parameters:
     site_parameters:
         title: "ShininGame"
-        description: "Shiny little extracts from enjoyable games, for lockdowned beings"
+        description: "Shiny little extracts from enjoyable games"
         social:
             github: ogizanagi
             twitter: ogizanagi
