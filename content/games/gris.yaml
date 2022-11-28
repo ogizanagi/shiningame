@@ -1,0 +1,90 @@
+# Game info
+title: GRIS
+officialCover: 'images/games/gris/official-cover.jpg'
+developer:
+  name: Nomada Studio
+  website: https://nomada.studio/
+parutionDate: '2018-12-13'
+
+# Play info
+device: Nintendo Switch
+score: 95
+sealOfApproval: false
+playedAt: '2022-11-26'
+
+# Screens
+cover: 'images/games/gris/2022112618064900.jpg'
+banner: 'images/games/gris/2022112721443300.jpg'
+screens:
+  - { path: 'images/games/gris/2022112618110300.jpg' }
+  - { path: 'images/games/gris/2022112618114300.jpg' }
+  - { path: 'images/games/gris/2022112618173000.jpg' }
+  - { path: 'images/games/gris/2022112618182200.jpg' }
+  - { path: 'images/games/gris/2022112618184500.jpg' }
+  - { path: 'images/games/gris/2022112618200600.jpg' }
+  - { path: 'images/games/gris/2022112618222200.jpg' }
+  - { path: 'images/games/gris/2022112618224900.jpg' }
+  - { path: 'images/games/gris/2022112618234900.jpg' }
+  - { path: 'images/games/gris/2022112618245200.jpg' }
+  - { path: 'images/games/gris/2022112618370600.jpg' }
+  - { path: 'images/games/gris/2022112618392200.jpg' }
+  - { path: 'images/games/gris/2022112618572600.jpg' }
+  - { path: 'images/games/gris/2022112618574900.jpg' }
+  - { path: 'images/games/gris/2022112618583300.jpg' }
+  - { path: 'images/games/gris/2022112618584100.jpg' }
+  - { path: 'images/games/gris/2022112709331600.jpg' }
+  - { path: 'images/games/gris/2022112709335200.jpg' }
+  - { path: 'images/games/gris/2022112709434500.jpg' }
+  - { path: 'images/games/gris/2022112709464200.jpg' }
+  - { path: 'images/games/gris/2022112709572400.jpg' }
+  - { path: 'images/games/gris/2022112719334000.jpg' }
+  - { path: 'images/games/gris/2022112719364700.jpg' }
+  - { path: 'images/games/gris/2022112719461600.jpg' }
+  - { path: 'images/games/gris/2022112719485800.jpg' }
+  - { path: 'images/games/gris/2022112719491900.jpg' }
+  - { path: 'images/games/gris/2022112720020000.jpg' }
+  - { path: 'images/games/gris/2022112720211900.jpg' }
+  - { path: 'images/games/gris/2022112720322700.jpg' }
+  - { path: 'images/games/gris/2022112720333900.jpg' }
+  - { path: 'images/games/gris/2022112720463500.jpg' }
+  - { path: 'images/games/gris/2022112721121800.jpg' }
+  - { path: 'images/games/gris/2022112721193400.jpg' }
+  - { path: 'images/games/gris/2022112721222700.jpg' }
+  - { path: 'images/games/gris/2022112721265800.jpg' }
+  - { path: 'images/games/gris/2022112721352700.jpg' }
+  - { path: 'images/games/gris/2022112721374300.jpg' }
+  - { path: 'images/games/gris/2022112721385500.jpg' }
+  - { path: 'images/games/gris/2022112721390000.jpg' }
+  - { path: 'images/games/gris/2022112721424400.jpg' }
+  - { path: 'images/games/gris/2022112721433900.jpg' }
+  - { path: 'images/games/gris/2022112721441200.jpg' }
+  - { path: 'images/games/gris/2022112721443000.jpg' }
+  - { path: 'images/games/gris/2022112721443300.jpg' }
+  - { path: 'images/games/gris/2022112721451600.jpg' }
+  - { path: 'images/games/gris/2022112721452800.jpg' }
+  - { path: 'images/games/gris/2022112721454200.jpg' }
+  - { path: 'images/games/gris/2022112721471500.jpg' }
+
+# Other
+soundtrack: I6rufOlNyYM
+
+# Publication
+publishDate: '2022-11-28'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: "1597203263728005131"
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/gris/social-cover.jpg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+#twitterImage: ~
+twitterImage: 'images/games/gris/social-cover.jpg'
