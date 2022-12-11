@@ -1,0 +1,4 @@
+github.source_screen:
+    path: '%source_images.github_path%/{path}'
+    requirements:
+        path: .+

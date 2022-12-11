@@ -22,7 +22,7 @@
 
 {% macro imageSrcsetWithBlurHash(path, preset, width, height) %}
     {% if (blur_hash ?? false) is same as(true) %}
-        src="{{ data_uri_thumbnail(public_dir ~ '/' ~ path, width, height) }}"
+        src="{{ data_uri_thumbnail(project_dir ~ '/' ~ path, width, height) }}"
         {{ stimulus_controller('lazy-image') }}
         data-hd-src="{{ asset(path|glide_image_preset(preset)) }}"
         data-hd-srcset="
@@ -36,7 +36,7 @@
 
 {% macro blurHashImage(path, width, height) %}
     {% if (blur_hash ?? false) is same as(true) %}
-        src="{{ data_uri_thumbnail(public_dir ~ '/' ~ path, width, height) }}"
+        src="{{ data_uri_thumbnail(project_dir ~ '/' ~ path, width, height) }}"
         {{ stimulus_controller('lazy-image') }}
         data-hd-src="{{ asset(path) }}"
     {% else %}
@@ -46,7 +46,7 @@
 
 {% macro blurHash(path, width, height, force = null) -%}
     {%- if (force ?? false or blur_hash ?? false) is same as(true) -%}
-        {{- data_uri_thumbnail(public_dir ~ '/' ~ path, width, height) -}}
+        {{- data_uri_thumbnail(project_dir ~ '/' ~ path, width, height) -}}
     {%- else -%}
         {{ asset(path) -}}
     {%- endif -%}

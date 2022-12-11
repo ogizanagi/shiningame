@@ -161,7 +161,7 @@
                     aria-hidden="true"
                 ></div>
 
-                <a href="{{ asset(screen.path) }}" target="_blank">
+                <a href="{{ source_screen_url(screen.path) }}" target="_blank">
                     {% if screen.gif %}
                         <video autoplay loop muted playsinline poster="{{ macros.blurHash(screen.path, 160, 90) }}">
                             <source type="video/webm" src="{{ asset(screen.webm) }}">
@@ -170,12 +170,6 @@
                                 style="max-width: min(1280px, 100%)"
                                 width="1280"
                             />
-{#                                <img#}
-{#                                    {{ macros.blurHashImage(screen.path, 160, 90) }}#}
-{#                                    data-hd-add-width="1280"#}
-{#                                    style="max-width: min(1280px, 100%)"#}
-{#                                    class="gif"#}
-{#                                />#}
                         </video>
                     {% else %}
                         <img {{ macros.imageSrcsetWithBlurHash(screen.path, 'game_show_screen', 160, 90) }} width="1280" />

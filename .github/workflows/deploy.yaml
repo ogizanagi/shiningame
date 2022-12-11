@@ -74,16 +74,18 @@ jobs:
             bin/console cache:clear --ansi
             bin/console cache:warmup --ansi
           echo "::endgroup::"
-        env:
-          NODE_ENV: production
-          APP_ENV: prod
-          WEBPACK_PUBLIC_PATH: /build
+
+      # Removes the source images from the public dir, since we'll link them through GitHub raw:
+      - name: 'Remove unecessary files'
+        run: rm -rf public/content
 
       - name: 'Build static site'
         run: bin/console stenope:build --no-interaction -vvv --ansi
         env:
           APP_ENV: prod
           ROUTER_DEFAULT_URI: https://shiningame.maxime-steinhausser.fr
+          SOURCE_IMAGES_USE_LOCAL: 0
+          SOURCE_IMAGES_GITHUB_PATH: ogizanagi/shiningame/main
 
       # https://github.com/marketplace/actions/deploy-to-github-pages
       - name: '🚀 Deploy'

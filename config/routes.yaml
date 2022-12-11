@@ -18,6 +18,14 @@ github:
         stenope:
             ignore: true
 
+github-raw:
+    schemes: https
+    host: raw.githubusercontent.com
+    resource: routes/external/github-raw.yaml
+    options:
+        stenope:
+            ignore: true
+
 youtube:
     schemes: https
     host: www.youtube.com
@@ -38,3 +46,11 @@ errors_404:
 controllers:
     resource: ../src/Controller/
     type: attribute
+
+local.source_screen:
+    path: '{path}'
+    requirements:
+        path: .+
+    options:
+        stenope:
+            ignore: true

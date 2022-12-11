@@ -12,6 +12,8 @@ parameters:
             twitter: ogizanagi
             like_on_twitter: "1382320471572676609"
 
+    source_images.github_path: '%env(SOURCE_IMAGES_GITHUB_PATH)%'
+
 services:
     # default configuration for services in *this* file
     _defaults:

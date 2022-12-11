@@ -4,13 +4,32 @@ declare(strict_types=1);
 
 namespace App\Model;
 
+use Symfony\Component\Filesystem\Path;
+
 class Screenshot
 {
-    public string $path;
+    public const BASE_DIR = 'content';
+
+    public readonly string $path;
 
     public bool $spoiler = false;
 
     private ?string $anchor;
+
+    public function __construct(
+        string $path,
+    ) {
+        $this->path = Path::join(self::BASE_DIR, $path);
+    }
+
+    public static function normalizePath(?string $path): ?string
+    {
+        if (null === $path) {
+            return null;
+        }
+
+        return Path::join(self::BASE_DIR, $path);
+    }
 
     public function isGif(): bool
     {
