@@ -1,0 +1,60 @@
+# Game info
+title: What Remains of Edith Finch
+officialCover: 'images/games/what-remains-of-edith-finch/official-cover.jpeg'
+developer:
+  name: Giant Sparrow
+  website: https://www.giantsparrow.com/games/
+parutionDate: '2017-04-25'
+
+# Play info
+device: PS5
+score: 100
+sealOfApproval: true
+playedAt: '2022-12-10'
+
+# Screens
+cover: 'images/games/what-remains-of-edith-finch/20221210130031.jpg'
+banner: 'images/games/what-remains-of-edith-finch/20221210123719.jpg'
+screens:
+  - { path: 'images/games/what-remains-of-edith-finch/20221210125035.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210125113.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210130031.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210131054.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210131346.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210131723.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210132806.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210133028.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210151706.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210152311.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210155109.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210163936.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210164836.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210165441.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210170740.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210171127.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210171700.jpg' }
+  - { path: 'images/games/what-remains-of-edith-finch/20221210172107.jpg' }
+
+# Other
+soundtrack: ~
+
+# Publication
+publishDate: '2022-12-11'
+
+# Flags
+enabled: true
+
+# Social
+tweetId: ~
+
+# SEO
+#metaTitle: ~
+#metaDescription: ~
+#ogTitle: ~
+#ogDescription: ~
+ogImage: 'images/games/what-remains-of-edith-finch/social-cover.jpg'
+#twitterCardType: ~
+#twitterTitle: ~
+#twitterDescription: ~
+#twitterImage: ~
+twitterImage: 'images/games/what-remains-of-edith-finch/social-cover.jpg'
